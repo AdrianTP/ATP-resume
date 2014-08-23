@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+	head
+		title #{name.family}, #{name.given} &mdash; Resume
+		link(rel='stylesheet', href='/styles/main.css')
+	body
+		#page-wrap
+			block header
+			section#main
+				dl
+					for section in sections
+						- var id = section.name.toLowerCase().replace(/\s/g, '-')
+						dt(id=id) #{section.name}
+						dd
+							case section.display
+								when "text"
+									= section.content
+								when "table"
+									+dispTable(section)
+								when "timeline"
+									+dispTimeline(section)

@@ -1,0 +1,23 @@
+{
+	"name": "adriantp-resume"
+	, "version": "0.1.1"
+	, "private": true
+	, "description": "Generates my resume as HTML from JSON data"
+	, "homepage": "http://adriantp.com/resume"
+	, "author": "Adrian Thomas-Prestemon <me@adriantp.com> (http://adriantp.com)"
+	, "files": [
+		"resume.json"
+		, "generator.js"
+		, "package.json"
+		, "public"
+		, "views"
+	]
+	, "main": "generator"
+	, "dependencies": {
+		"express": "4.x"
+		, "jade": "*"
+	}
+	, "scripts": {
+		"start": "node server.js"
+	}
+}

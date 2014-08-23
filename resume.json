@@ -1,0 +1,524 @@
+{
+	"name": {
+		"given": "Adrian",
+		"family": "Thomas-Prestemon"
+	},
+	"contact": {
+		"telephone": [
+			{
+				"name": "Mobile",
+				"type": "telephone",
+				"content": {
+					"country": "+1",
+					"area": "630",
+					"exchange": "297",
+					"subscriber": "7837"
+				}
+			}
+		],
+		"email": [
+			{
+				"name": "Email",
+				"type": "email",
+				"content": {
+					"local": "resume",
+					"domain": {
+						"sub": [],
+						"name": "adriantp",
+						"tld": "com"
+					}
+				}
+			}
+		],
+		"website": [
+			{
+				"name": "Website",
+				"type": "website",
+				"content": {
+					"protocol": "http",
+					"domain": {
+						"sub": [],
+						"name": "adriantp",
+						"tld": "com"
+					},
+					"uri": null,
+					"query": null
+				}
+			},
+			{
+				"name": "GitHub",
+				"type": "website",
+				"content": {
+					"protocol": "http",
+					"domain": {
+						"sub": [],
+						"name": "github",
+						"tld": "com"
+					},
+					"uri": [
+						"adriantp"
+					],
+					"query": null
+				}
+			},
+			{
+				"name": "LinkedIn",
+				"type": "website",
+				"content": {
+					"protocol": "http",
+					"domain": {
+						"sub": [],
+						"name": "linkedin",
+						"tld": "com"
+					},
+					"uri": [
+						"in",
+						"adriantp"
+					],
+					"query": null
+				}
+			}
+		]
+	},
+	"sections": [
+		{
+			"name": "What I Do",
+			"type": "text",
+			"display": "text",
+			"content": "I am a JavaScript developer from Chicago who enjoys developing web applications, working with data, and learning new technologies."
+		},
+		{
+			"name": "What I Know",
+			"type": "hierarchy",
+			"display": "table",
+			"content": [
+				{
+					"name": "Skills",
+					"type": "list",
+					"content": [
+						["HTML 5", "CSS 3", "Sass/Less", "JavaScript", "jQuery", "Handlebars"],
+						["PHP 5", "Node.JS", "Apache", "MySQL", "NetBeans", "Eclipse"],
+						["", "Linux", "Windows", "Mac OS", "Git"]
+					]
+				}
+			]
+		},
+		{
+			"name": "Where I Have Been",
+			"type": "list",
+			"display": "timeline",
+			"groups": [
+				{
+					"start": "2012-01-06",
+					"end": "2014-12-31",
+					"show": true
+				},
+				{
+					"start": "2008-10-01",
+					"end": "2012-01-05",
+					"show": false
+				},
+				{
+					"start": "2005-01-01",
+					"end": "2008-09-30",
+					"show": false
+				}
+			],
+			"content": [
+				{
+					"show": true,
+					"employer": {
+						"name": "Sears Integrated Retail Labs",
+						"address": {
+							"street": null,
+							"city": "Chicago",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.searslabs.com"
+					},
+					"positions": [
+						{
+							"title": "Web Developer",
+							"type": "Full-Time",
+							"role": "Contract",
+							"recruiter": "Aim Consulting (agency)",
+							"date": {
+								"start": "2014-03-10",
+								"end": null
+							},
+							"responsibilities": [
+								{"description": "Develop enterprise web applications", "show": true},
+								{"description": "Research new technologies", "show": true},
+								{"description": "Interact with testers and managers", "show": true},
+								{"description": "Keep up with changing requirements", "show": true},
+								{"description": "Write documentation", "show": true},
+								{"description": "Manage application and database servers", "show": true},
+								{"description": "Act as lead developer on a project", "show": true},
+								{"description": "Contribute modifications to 'Fetch' PHP IMAP library", "show": true}
+							],
+							"skills": [
+								{"name": "JavaScript", "show": true},
+								{"name": "AngularJS", "show": false},
+								{"name": "HTML 5", "show": true},
+								{"name": "CSS 3", "show": true},
+								{"name": "Sass/SCSS", "show": false},
+								{"name": "jQuery", "show": true},
+								{"name": "PHP 5", "show": true},
+								{"name": "MySQL", "show": true},
+								{"name": "NodeJS", "show": true},
+								{"name": "LAMP", "show": true}
+							]
+						}
+					]
+				},
+				{
+					"show": true,
+					"employer": {
+						"name": "Siteworx",
+						"address": {
+							"street": null,
+							"city": "Chicago",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.siteworx.com"
+					},
+					"positions": [
+						{
+							"title": "Front-End Web Developer",
+							"type": "Full-Time",
+							"role": "Contract",
+							"recruiter": "Direct Hire",
+							"date": {
+								"start": "2013-01-22",
+								"end": "2014-02-19"
+							},
+							"responsibilities": [
+								{"description": "Developed custom JavaScript", "show": true},
+								{"description": "Integrated various libraries including jQuery and Handlebars", "show": true},
+								{"description": "Built and supported websites on two different CMS platforms", "show": true},
+								{"description": "Helped interview and train new employees", "show": true},
+								{"description": "Integrated seamlessly into client organizations for on-site work as-needed", "show": true}
+							],
+							"skills": [
+								{"name": "HTML 5", "show": true},
+								{"name": "CSS 3", "show": true},
+								{"name": "Less", "show": true},
+								{"name": "JavaScript", "show": true},
+								{"name": "jQuery", "show": true},
+								{"name": "Handlebars", "show": true},
+								{"name": "Adobe CQ 5", "show": false},
+								{"name": "JSP", "show": false}
+							]
+						}
+					]
+				},
+				{
+					"show": true,
+					"employer": {
+						"name": "Perkins+Will",
+						"address": {
+							"street": null,
+							"city": "Chicago",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.perkinswill.com"
+					},
+					"positions": [
+						{
+							"title": "Front-End Web Developer",
+							"type": "Full-Time",
+							"role": "Contract",
+							"recruiter": "RSM Solutions (agency)",
+							"date": {
+								"start": "2012-05-01",
+								"end": "2012-10-01"
+							},
+							"responsibilities": [
+								{"description": "Helped build internal web app from ground up", "show": true},
+								{"description": "Researched frameworks and technologies to use", "show": false},
+								{"description": "Implemented Front-End code and business logic", "show": false}
+							],
+							"skills": [
+								{"name": "HTML 5", "show": true},
+								{"name": "CSS 3", "show": true},
+								{"name": "SCSS", "show": true},
+								{"name": "Bootstrap", "show": true},
+								{"name": "JavaScript", "show": false},
+								{"name": "jQuery", "show": true},
+								{"name": "jQuery UI", "show": true},
+								{"name": "Kendo UI", "show": true},
+								{"name": "Unspecified JavaScript libraries and jQuery plugins", "show": false},
+								{"name": "Visual Studio 2012", "show": false},
+								{"name": "ASP.Net MVC 3 C# Razor Views", "show": false}
+							]
+						}
+					]
+				},
+				{
+					"show": true,
+					"employer": {
+						"name": "Zagnoli, McEvoy, Foley",
+						"address": {
+							"street": null,
+							"city": "Chicago",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.zmf.com"
+					},
+					"positions": [
+						{
+							"title": "Drupal Web Developer",
+							"type": "Part-Time",
+							"role": "Contract",
+							"recruiter": "The Creative Group (agency)",
+							"date": {
+								"start": "2012-03-01",
+								"end": "2013-06-01"
+							},
+							"responsibilities": [
+								{"description": "Created custom cost estimator", "show": false},
+								{"description": "Administered Drupal website", "show": false},
+								{"description": "Provided documentation to enable self-sufficiency upon project completion", "show": false},
+								{"description": "Drupal website development and training", "show": true}
+							],
+							"skills": [
+								{"name": "Drupal", "show": true},
+								{"name": "XHTML", "show": true},
+								{"name": "CSS 3", "show": true},
+								{"name": "JavaScript", "show": false},
+								{"name": "jQuery", "show": true}
+							]
+						}
+					]
+				},
+				{
+					"show": false,
+					"employer": {
+						"name": "Gordon Hanrahan",
+						"address": {
+							"street": null,
+							"city": "Chicago",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.gordonhanrahan.com"
+					},
+					"positions": [
+						{
+							"title": "Marketing Email Developer",
+							"type": "Part-Time",
+							"role": "Contract",
+							"recruiter": "The Creative Group (agency)",
+							"date": {
+								"start": "2012-03-01",
+								"end": "2012-05-01"
+							},
+							"responsibilities": [
+								{"description": "Assembled HTML emails from PSD templates", "show": true}
+							],
+							"skills": [
+								{"name": "HTML 4", "show": false},
+								{"name": "CSS 2", "show": false}
+							]
+						}
+					]
+				},
+				{
+					"show": false,
+					"employer": {
+						"name": "PosTrack Technologies",
+						"address": {
+							"street": null,
+							"city": "Joliet",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://web.archive.org/web/20110129071638/http://www.postrack.net/Home.aspx"
+					},
+					"positions": [
+						{
+							"title": "Interactive Marketing Developer",
+							"type": "Full-Time",
+							"role": "Permanent",
+							"recruiter": "Internal Recruitment",
+							"date": {
+								"start": "2011-11-01",
+								"end": "2012-01-05"
+							},
+							"responsibilities": [
+								{"description": "Researched CMS technologies", "show": false},
+								{"description": "Created low-maintenance training portal video player", "show": false},
+								{"description": "Began redevelopment of the company website", "show": true}
+							],
+							"skills": [
+								{"name": "XHTML", "show": true},
+								{"name": "CSS 3", "show": true},
+								{"name": "JavaScript", "show": true},
+								{"name": "Drupal", "show": true},
+								{"name": "Joomla", "show": true},
+								{"name": "Sitefinity", "show": true},
+								{"name": "LAMP", "show": false},
+								{"name": "Windows IIS", "show": false}
+							]
+						},
+						{
+							"title": "Support Technician",
+							"type": "Full-Time",
+							"role": "Permanent",
+							"recruiter": "Direct Hire",
+							"date": {
+								"start": "2008-10-01",
+								"end": "2012-01-05"
+							},
+							"responsibilities": [
+								{"description": "Repaired and maintained several hundred Windows-based point-of-sale registers, kitchen displays, management consoles, and servers", "show": false},
+								{"description": "Provided support by phone, email, remote-access, and on-site", "show": false},
+								{"description": "Received, repaired, shipped, and tracked defective or malfunctioning units", "show": false},
+								{"description": "Troubleshooted hardware, software, and network issues", "show": false},
+								{"description": "Documented issues and methods of repair", "show": false},
+								{"description": "Trained and supported end users: cashiers, kitchen staff, and managers", "show": false},
+								{"description": "Updated clients to meet new government security requirements (PCI compliance)", "show": false},
+								{"description": "Provided overflow support to VoIP Telecom department clients", "show": false},
+								{"description": "Assisted in on-site installation of VoIP hardware", "show": false},
+								{"description": "Installed and configure Asterisk-based IP PBX software", "show": false},
+								{"description": "Installed and configure CentOS 5 Linux servers", "show": false},
+								{"description": "Implemented OpenVPN across all client machines, reducing support call times by 80%", "show": true},
+								{"description": "Provided additional support for VoIP telecom department clients", "show": true},
+								{"description": "Built internal web apps, resulting in my induction to the Marketing team", "show": true}
+							],
+							"skills": [
+								{"name": "Windows", "show": true},
+								{"name": "TCP/IP", "show": true},
+								{"name": "Linux", "show": true},
+								{"name": "Asterisk PBX", "show": true},
+								{"name": "PHP 4", "show": true},
+								{"name": "MySQL", "show": true},
+								{"name": "Point-of-Sale hardware and software", "show": false},
+								{"name": "Epson receipt printers (thermal and impact)", "show": false},
+								{"name": "LAMP", "show": false},
+								{"name": "XHTML", "show": false},
+								{"name": "CSS 2", "show": false},
+								{"name": "CSS 3", "show": false},
+								{"name": "JavaScript", "show": false}
+							]
+						}
+					]
+				},
+				{
+					"show": false,
+					"employer": {
+						"name": "College of DuPage Anthropology Department",
+						"address": {
+							"street": null,
+							"city": "Glen Ellyn",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.cod.edu/programs/anthropology/index.aspx"
+					},
+					"positions": [
+						{
+							"title": "Student Assistant",
+							"type": "Part-Time",
+							"role": "Contract",
+							"recruiter": "direct",
+							"date": {
+								"start": "2007-11-01",
+								"end": "2008-07-01"
+							},
+							"responsibilities": [
+								{"description": "Overhaul and update department website", "show": false},
+								{"description": "Compile index of documents relating to department bone cast collection", "show": false},
+								{"description": "Maintain department hallway display case", "show": false},
+								{"description": "Other duties as-needed (such as grading papers)", "show": false}
+							],
+							"skills": [
+								{"name": "XHTML", "show": false},
+								{"name": "CSS 2", "show": false},
+								{"name": "Microsoft Office", "show": false}
+							]
+						}
+					]
+				},
+				{
+					"show": false,
+					"employer": {
+						"name": "Starbucks Coffee",
+						"address": {
+							"street": null,
+							"city": "Downers Grove",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.starbucks.com/store/11312/us/downers-grove/5002-5006-main-st-downers-grove-il-605153643"
+					},
+					"positions": [
+						{
+							"title": "Barista",
+							"type": "Part-Time",
+							"role": "Contract",
+							"recruiter": "direct",
+							"date": {
+								"start": "2006-06-01",
+								"end": "2006-07-31"
+							},
+							"responsibilities": [
+								{"description": "Cashiering", "show": false},
+								{"description": "Barista", "show": false},
+								{"description": "General store upkeep and organization", "show": false},
+								{"description": "Service with a smile", "show": false}
+							],
+							"skills": [
+								{"name": "Blender", "show": false},
+								{"name": "Point-of-sale cash register", "show": false},
+								{"name": "Espresso Bar", "show": false},
+								{"name": "Broom", "show": false}
+							]
+						}
+					]
+				},
+				{
+					"show": false,
+					"employer": {
+						"name": "Panelshop.net",
+						"address": {
+							"street": null,
+							"city": "Naperville",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.panelshop.net"
+					},
+					"positions": [
+						{
+							"title": null,
+							"type": "Part-Time",
+							"role": "Contract",
+							"recruiter": "direct",
+							"date": {
+								"start": "2005-06-01",
+								"end": "2005-07-01"
+							},
+							"responsibilities": [
+								{"description": "Interpreted diagrams and manuals", "show": false},
+								{"description": "Used machine shop tools while following safety protocols", "show": false},
+								{"description": "Constructed industrial control panels", "show": false}
+							],
+							"skills": [
+								{"name": "Engraving Mill", "show": false},
+								{"name": "Drill", "show": false},
+								{"name": "Screw Tap", "show": false},
+								{"name": "Rotary Saw", "show": false},
+								{"name": "Jigsaw", "show": false}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

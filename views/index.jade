@@ -1,0 +1,130 @@
+extend layout
+
+block header
+	header
+		#contact-info
+			dl
+				for entry in contact
+					for item in entry
+						- var ptotocol = ""
+						- var href = ""
+						- var output = ""
+						case item.type
+							when "telephone"
+								- protocol = "tel://" + item.content.country
+								- href += item.content.area + item.content.exchange + item.content.subscriber
+								- output = item.content.area + "-" + item.content.exchange + "-" + item.content.subscriber
+							when "email"
+								- protocol = "mailto://"
+								- href += item.content.local + "@" + item.content.domain.name + item.content.domain.tld
+								- output = item.content.local + "@" + item.content.domain.name + "." + item.content.domain.tld
+							when "website"
+								- protocol = item.content.protocol + "://"
+								if item.content.domain.hasOwnProperty('sub') && item.content.domain.sub !== null
+									for sub in item.content.domain.sub
+										- href += sub + "."
+										- output += sub + "."
+								- href += item.content.domain.name + "." + item.content.domain.tld
+								- output += item.content.domain.name + "." + item.content.domain.tld
+								if item.content.hasOwnProperty('uri') && item.content.uri !== null
+									for uri in item.content.uri
+										- href += "/" + uri
+										- output += "/" + uri
+								if item.content.hasOwnProperty('query') && item.content.query !== null
+									for query, i in item.content.query
+										if i === 0
+											- href += "?"
+											- output += "?"
+										else
+											- href += "&"
+											- output += "&"
+										- href += query.key + "=" + query.value
+										- output += query.key + "=" + query.value
+						dt= item.name
+						dd
+							a(id=item.type href=protocol+href title=item.title)
+								span
+									= output
+		#name
+			h1#first-name.given-name #{name.given}
+			h2#last-name.family-name #{name.family}
+
+mixin dispTable(data)
+	table
+		for part in data.content
+			for item in part.content
+				tr
+					for skill in item
+						td
+							= skill
+
+mixin dispTimeline(data)
+	for group in data.groups
+		if group.show
+			- var start = new Date(group.start + 'T00:00:00.000Z').getTime()
+			- var end = new Date(group.end + 'T00:00:00.000Z').getTime()
+			-	var filteredContent = data.content.filter(function(val, index, ref) {
+			-		var keep = true;
+			-		for (var j in val.positions) {
+			-			var pos = val.positions[j];
+			-			var tempStart = new Date(pos.date.start).getTime();
+			-			var tempEnd = pos.date.end === null ? new Date().getTime() : new Date(pos.date.end).getTime();
+			-			if (tempStart < start || tempEnd > end) {
+			-				keep = false;
+			-			}
+			-		}
+			-		return keep;
+			-	});
+			for content in filteredContent
+				if content.show
+					for position in content.positions
+						div
+							h3
+								a(href=content.employer.website)
+									span
+										= content.employer.name
+								|&nbsp;
+								span.position
+									= position.title
+							p
+								= position.type
+								|, 
+								= position.role
+								|, 
+								= position.recruiter
+							h4
+								- var getMonthName = function(num, isZeroIndexed) {
+								-	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+								-	if (!isZeroIndexed) {
+								-		num -= 1;
+								-	}
+								-	return months[num];
+								-	console.log('hello');
+								- }
+								- var start = getMonthName(position.date.start.split('-')[1], false) + ' ' + position.date.start.split('-')[0];
+								time(datetime=position.date.start)
+									= start
+								|&nbsp;-&nbsp;
+								if position.date.end === null
+									- var today = new Date();
+									- var endDateTime = '' + today.getFullYear() + '-' + ((today.getMonth() + 1).toString().length === 1 ? '0' : '') + (today.getMonth() + 1) + '-' + (today.getDate().toString().length === 1 ? '0' : '') + today.getDate();
+									- var end = 'Present';
+								else
+									- var endDateTime = position.date.end;
+									- var end = getMonthName(position.date.end.split('-')[1], false) + ' ' + position.date.end.split('-')[0];
+								time(datetime=endDateTime)
+									= end
+								|&nbsp;
+								span.location
+									= content.employer.address.city
+									|, 
+									= content.employer.address.state
+							for duty in position.responsibilities
+								if duty.show
+									p
+										= duty.description
+							ul.skills
+								for skill in position.skills
+									if skill.show
+										li
+											= skill.name
