@@ -20,7 +20,7 @@ dl>dd>dl>dt                     { width: 105px; }
 dl>dd>dl>dd                     { width: 585px; }
 ul                              { margin: 5px 0px 10px 0px; display: block; font-size: 12px; width: 585px; }
 ul>li                           { margin: 0px 10px 0px 0px; padding: 2px 5px; display: inline; list-style: none; }
-ul.skills>li                    { font-weight: bold; border: 1px solid #82B }
+ul.skills>li                    { white-space: nowrap; font-weight: bold; border: 1px solid #82B }
 span.level                      { margin: 0px 0px 0px 5px; font-size: 10px; font-weight: normal; vertical-align: top; color: #CCC; }
 h1                              { margin: 0px 0px 5px 0px; font-size: 120px; line-height: 100px; letter-spacing: 14px; }
 h2                              { margin: 0px 0px 0px 0px; font-size: 40px; line-height: 40px; letter-spacing: 5px; }
