@@ -1,5 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 *                               { margin: 0px; padding: 0px; box-sizing: border-box; }
-body                            { font: 14px Helvetica, Sans-Serif; line-height: 22px; background: none; }
+body                            { font: 14px 'Lato', sans-serif; line-height: 22px; background: none; }
 a, a:active, a:visited, a:link  { color: #000; text-decoration: none; background-color: #FEF; }
 a:hover, a:focus                { color: #FFF; text-decoration: none; background-color: #82B; }
 div#page-wrap                   { width: 800px; margin: 0px auto; }
@@ -23,7 +24,7 @@ dl>dd>dl>dd                     { width: 585px; }
                                   background-image: linear-gradient(to right, rgba(136,34,187,1) 0%,rgba(136,34,187,0.5) 50%,rgba(136,34,187,0) 100%); }
 ul                              { margin: 0px 0px 0px 0px; display: block; font-size: 12px; }
 ul>li                           { margin: 0px 5px 0px 0px; padding: 2px 0px; display: inline; list-style: none; }
-ul.skills>li                    { white-space: nowrap; font-weight: bold; }
+ul.skills>li                    { margin: 0px 0px 0px 5px; white-space: nowrap; font-weight: bold; }
 #contact-info>ul>li             { margin-right: 10px; }
 span.level                      { margin: 0px 0px 0px 5px; font-size: 10px; font-weight: normal; vertical-align: top; color: #CCC; }
 h1                              { margin: 5px auto 5px auto; font-size: 40px; line-height: 40px; letter-spacing: 6px; display: inline-block; }
