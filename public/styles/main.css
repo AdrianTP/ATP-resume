@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700|Quattrocento+Sans:400,700);
 *                               { margin: 0px; padding: 0px; box-sizing: border-box; }
-body                            { font: 14px 'Lato', sans-serif; line-height: 22px; background: none; }
+body                            { font: 14px 'Quattrocento Sans', sans-serif; line-height: 22px; background: none; }
 a, a:active, a:visited, a:link  { color: #000; text-decoration: none; background-color: #FEF; }
 a:hover, a:focus                { color: #FFF; text-decoration: none; background-color: #82B; }
 div#page-wrap                   { width: 800px; margin: 0px auto; }
@@ -27,15 +27,15 @@ ul>li                           { margin: 0px 5px 0px 0px; padding: 2px 0px; dis
 ul.skills>li                    { margin: 0px 0px 0px 5px; white-space: nowrap; font-weight: bold; }
 #contact-info>ul>li             { margin-right: 10px; }
 span.level                      { margin: 0px 0px 0px 5px; font-size: 10px; font-weight: normal; vertical-align: top; color: #CCC; }
-h1                              { margin: 5px auto 5px auto; font-size: 40px; line-height: 40px; letter-spacing: 6px; display: inline-block; }
-h2                              { margin: 0px 0px 0px 0px; font-size: 36px; line-height: 40px; letter-spacing: 5px; }
-h3                              { display: inline-block; margin: 0px 0px 0px 0px; font-size: 18px; line-height: 22px; }
+h1                              { font-family: 'Lato', sans-serif; margin: 5px auto 5px auto; font-size: 40px; line-height: 40px; letter-spacing: 6px; display: inline-block; }
+h2                              { font-family: 'Lato', sans-serif; margin: 0px 0px 0px 0px; font-size: 36px; line-height: 40px; letter-spacing: 5px; }
+h3                              { font-family: 'Lato', sans-serif; display: inline-block; margin: 0px 0px 0px 0px; font-size: 18px; line-height: 22px; }
+h4                              { display: inline-block; }
 .job                            { margin: 10px 0px 0px 0px; }
 .job:first-child                { margin-top: 0px; }
 .job .position                  { font-size: 16px; }
-.job .role                      { font-size: 12px; float: right; }
-h3>span                         { font-weight: normal; }
-h3>span.role                    { font-size: 12px; float: right; }
+.job .role                      { position: relative; top: 5px; font-size: 12px; float: right; }
+
 h4>span.location                { font-weight: normal; }
 .skills                         { float: right; }
 p.small                         { font-size: 10px; line-height: 12px; }
