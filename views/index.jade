@@ -2,8 +2,10 @@ extend layout
 
 block header
 	header
+		#name
+			h1 #{name.given} #{name.family}
 		#contact-info
-			dl
+			ul
 				for entry in contact
 					for item in entry
 						- var ptotocol = ""
@@ -40,14 +42,10 @@ block header
 											- output += "&"
 										- href += query.key + "=" + query.value
 										- output += query.key + "=" + query.value
-						dt= item.name
-						dd
+						li
 							a(id=item.type href=protocol+href title=item.title)
 								span
 									= output
-		#name
-			h1#first-name.given-name #{name.given}
-			h2#last-name.family-name #{name.family}
 
 mixin dispTable(data)
 	table
@@ -78,20 +76,29 @@ mixin dispTimeline(data)
 			for content in filteredContent
 				if content.show
 					for position in content.positions
-						div
+						.job
 							h3
 								a(href=content.employer.website)
-									span
-										= content.employer.name
+									= content.employer.name
 								|&nbsp;
-								span.position
-									= position.title
-							p
+							span.position
+								= position.title
+							span.role
 								= position.type
 								|, 
 								= position.role
 								|, 
 								= position.recruiter
+							hr
+							ul.skills
+								- var filteredSkills = position.skills.filter(function(val, i, arr) {
+								- 	return val.show;
+								- });
+								for skill, i in filteredSkills
+									li
+										= skill.name
+										if i < filteredSkills.length - 1
+											|,&nbsp;
 							h4
 								- var getMonthName = function(num, isZeroIndexed) {
 								-	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -119,12 +126,10 @@ mixin dispTimeline(data)
 									= content.employer.address.city
 									|, 
 									= content.employer.address.state
-							for duty in position.responsibilities
-								if duty.show
-									p
-										= duty.description
-							ul.skills
-								for skill in position.skills
-									if skill.show
-										li
-											= skill.name
+							- var filteredResponsibilities = position.responsibilities.filter(function(val, i, arr) {
+							- 	return val.show;
+							- });
+							for duty in filteredResponsibilities
+								p
+									= duty.description
+

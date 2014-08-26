@@ -1,36 +1,44 @@
 *                               { margin: 0px; padding: 0px; box-sizing: border-box; }
 body                            { font: 14px Helvetica, Sans-Serif; line-height: 22px; background: none; }
-a, a:active, a:visited, a:link  { color: #000; text-decoration: none; background-color: #FEF; /*border-bottom: 1px dotted #999;*/ }
-a:hover, a:focus                { color: #FFF; text-decoration: none; background-color: #82B; /*border-bottom-style: solid;*/ }
+a, a:active, a:visited, a:link  { color: #000; text-decoration: none; background-color: #FEF; }
+a:hover, a:focus                { color: #FFF; text-decoration: none; background-color: #82B; }
 div#page-wrap                   { width: 800px; margin: 0px auto; }
-/*div#page-wrap                   { height: 1050px; outline: 1px solid #82B; }*/
-header>div                      { float: left; width: 325px; height: 160px;}
-header>div#name                 { padding: 10px; clear: right; width: 475px; height: 160px; border-left: 4px solid #82B; }
-dl dt                           { margin: 5px 5px 5px 0px; float: left; clear: both; font-weight: bold; text-align: right; }
-dl dd                           { margin: 5px 0px 0px 5px; padding: 0px 0px 0px 5px; float: left; border-left: 4px solid #82B; }
-header>div>     dl dt           { width: 70px; }
-header>div>     dl dd           { width: 245px; }
+header>div                      { margin-left: 70px; padding-left: 10px; }
+dl dt                           { margin: 10px 0px 5px 0px; float: left; clear: both; font-weight: bold; text-align: right; }
+dl dd                           { margin: 10px 0px 0px 5px; padding: 0px 0px 0px 5px; float: left; }
 section#main>   dl>dt           { width: 70px; }
 section#main>   dl>dd           { width: 710px; }
 dl>dd table                     { border-collapse: collapse; width: 100%; }
 dl>dd table th                  { padding: 0px 10px 0px 0px; text-align: right; vertical-align: top; width: 115px; }
-dl>dd table td                  { border-bottom: 1px solid #82B; text-align: center; }
+dl>dd table td                  { border-bottom: 1px solid #82B; }
 dl>dd table tr:last-of-type td  { border: none; }
 dl>dd>dl>dt                     { width: 105px; }
 dl>dd>dl>dd                     { width: 585px; }
-ul                              { margin: 5px 0px 10px 0px; display: block; font-size: 12px; width: 585px; }
-ul>li                           { margin: 0px 10px 0px 0px; padding: 2px 5px; display: inline; list-style: none; }
-ul.skills>li                    { white-space: nowrap; font-weight: bold; border: 1px solid #82B }
+.job hr                         { border: none; height: 3px; display: block;
+                                  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(136,34,187,1)), color-stop(50%,rgba(136,34,187,0.5)), color-stop(100%,rgba(136,34,187,0)));
+                                  background-image: -webkit-linear-gradient(left, rgba(136,34,187,1) 0%,rgba(136,34,187,0.5) 50%,rgba(136,34,187,0) 100%);
+                                  background-image: -moz-linear-gradient(left, rgba(136,34,187,1) 0%, rgba(136,34,187,0.5) 50%, rgba(136,34,187,0) 100%);
+                                  background-image: -ms-linear-gradient(left, rgba(136,34,187,1) 0%,rgba(136,34,187,0.5) 50%,rgba(136,34,187,0) 100%);
+                                  background-image: -o-linear-gradient(left, rgba(136,34,187,1) 0%,rgba(136,34,187,0.5) 50%,rgba(136,34,187,0) 100%);
+                                  background-image: linear-gradient(to right, rgba(136,34,187,1) 0%,rgba(136,34,187,0.5) 50%,rgba(136,34,187,0) 100%); }
+ul                              { margin: 0px 0px 0px 0px; display: block; font-size: 12px; }
+ul>li                           { margin: 0px 5px 0px 0px; padding: 2px 0px; display: inline; list-style: none; }
+ul.skills>li                    { white-space: nowrap; font-weight: bold; }
+#contact-info>ul>li             { margin-right: 10px; }
 span.level                      { margin: 0px 0px 0px 5px; font-size: 10px; font-weight: normal; vertical-align: top; color: #CCC; }
-h1                              { margin: 0px 0px 5px 0px; font-size: 120px; line-height: 100px; letter-spacing: 14px; }
-h2                              { margin: 0px 0px 0px 0px; font-size: 40px; line-height: 40px; letter-spacing: 5px; }
-h3                              { margin: 5px 0px 0px 0px; font-size: 18px; line-height: 22px; }
-h3>span.position                { font-weight: normal; }
+h1                              { margin: 5px auto 5px auto; font-size: 40px; line-height: 40px; letter-spacing: 6px; display: inline-block; }
+h2                              { margin: 0px 0px 0px 0px; font-size: 36px; line-height: 40px; letter-spacing: 5px; }
+h3                              { display: inline-block; margin: 0px 0px 0px 0px; font-size: 18px; line-height: 22px; }
+.job                            { margin: 10px 0px 0px 0px; }
+.job:first-child                { margin-top: 0px; }
+.job .position                  { font-size: 16px; }
+.job .role                      { font-size: 12px; float: right; }
+h3>span                         { font-weight: normal; }
+h3>span.role                    { font-size: 12px; float: right; }
 h4>span.location                { font-weight: normal; }
+.skills                         { float: right; }
 p.small                         { font-size: 10px; line-height: 12px; }
-div#modal                       { display: none; position: absolute; z-index: 999; display: block; top: 0px; left: 0px; margin: 0px auto; padding: 10px; width: 400px; height: 150px; text-align: center; background-color: #FFF; border: 2px solid #82B; }
 a.button                        { display: block; margin: 40px auto 0px; padding: 3px 5px 5px 5px; text-decoration: none; width: 60px; height: 30px; }
 a.button:visited, a.button:link { background-color: #82B; color: #FFF; border: 1px solid #82B; }
 a.button:hover, a.button:focus  { background-color: #93C; color: #FFF; }
 a.button:active                 { background-color: #FFF; color: #82B; }
-div#grey                        { display: block; position: absolute; top: 0px; left: 0px; width: 0px; height: 0px; background-color: #000; opacity: 0.5; }

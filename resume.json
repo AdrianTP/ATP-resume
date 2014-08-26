@@ -82,13 +82,13 @@
 	},
 	"sections": [
 		{
-			"name": "What I Do",
+			"name": "Summary",
 			"type": "text",
 			"display": "text",
 			"content": "I am a JavaScript developer from Chicago who enjoys developing web applications, working with data, and learning new technologies."
 		},
 		{
-			"name": "What I Know",
+			"name": "Skills",
 			"type": "hierarchy",
 			"display": "table",
 			"content": [
@@ -96,15 +96,15 @@
 					"name": "Skills",
 					"type": "list",
 					"content": [
-						["HTML 5", "CSS 3", "Sass/Less", "JavaScript", "jQuery", "Handlebars"],
-						["PHP 5", "Node.JS", "Apache", "MySQL", "NetBeans", "Eclipse"],
-						["", "Linux", "Windows", "Mac OS", "Git"]
+						["HTML 5", "CSS 3", "Sass/Less", "JavaScript", "jQuery", "PHP 5"],
+						["Node.JS", "Apache", "MySQL", "NetBeans", "Eclipse", "Linux"],
+						["Windows", "Mac OS", "Git"]
 					]
 				}
 			]
 		},
 		{
-			"name": "Where I Have Been",
+			"name": "History",
 			"type": "list",
 			"display": "timeline",
 			"groups": [
@@ -116,7 +116,7 @@
 				{
 					"start": "2008-10-01",
 					"end": "2012-01-05",
-					"show": false
+					"show": true
 				},
 				{
 					"start": "2005-01-01",
@@ -154,7 +154,6 @@
 								{"description": "Keep up with changing requirements", "show": true},
 								{"description": "Write documentation", "show": true},
 								{"description": "Manage application and database servers", "show": true},
-								{"description": "Act as lead developer on a project", "show": true},
 								{"description": "Contribute modifications to 'Fetch' PHP IMAP library", "show": true}
 							],
 							"skills": [
@@ -296,7 +295,7 @@
 					]
 				},
 				{
-					"show": false,
+					"show": true,
 					"employer": {
 						"name": "Gordon Hanrahan",
 						"address": {
@@ -328,7 +327,7 @@
 					]
 				},
 				{
-					"show": false,
+					"show": true,
 					"employer": {
 						"name": "PosTrack Technologies",
 						"address": {
