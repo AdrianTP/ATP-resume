@@ -4,8 +4,8 @@
 .grad2                          { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAABCAYAAAAmaMpmAAADO0lEQVRIS41XbW7bMAzVh5OgW4FhP3qe7mg92nae/hgGdCuSWOIeKYmk2hixAUcURT490SbpxOCul/CSdPrj2eTXV5PZ4O+TzS9vJn9/NPn8rvK39UFlWs8TVv1ysrVycfLRyVfzOR1MX9cJi9x8oRTXU47LudC6UM7xQIWuMbM+pLiESmud9eUQY74S8ZhgI/bwy6XmEokyxVjCGhMwaqyU8iEX4GSxZX2EnijVJcvI9tDL+rBbgK12pHaiC0XWCmzyCh6ZcgqZhr4CJwGnUoA+QV+ZJ1UYYSMQjDEG4BBw+KTQ1AAeXcdrhHlMGUfBKHsCY/CRedA5jLPYs19i7ABVYFfVyxpVLGK3CAYVPNgWI/NSngMb/lhSvWKzH/szDuMBV/mOPZR/Ml7dlnmGcFsf04Z+7DHx7wFze0pMOm/PrwWWA+R4c/R83BBfjrPEG4HXeGJPwOJuvNvYYznOKXHnn+4vuIh/c+RnyTHiB4S4f+AtccSrCXvcMMe6vCEWX811ft31wo635MlG0Jyd9w+Wn9FksFA9BPN1et4WZ/E5/XkPv+8e3gzq7XbwhoedwXNtC1trG7y3zzrxCjviPsdqrskzz/tc9tlz9O5h+XWkil5bMhvssdtjsw8ruv1QXIwilzt/8bzlIcaCdxbpJfkzbs6jMvJJ9LzOv2yv+cz+KOa9XracRZ5yvhL8G2rz7SV1xhUO4obcL1pnpBaEonnfyEo9wA9a1EfegtHPUz0/4w0OvYZJPxCcDd6DxzZvLqjciXo/4NI46tId3lIf2Xb0Gx5Rq27xlxo27KjKucVfYtzjEcBj1Mced41jx2480Zp7feS9tD76uAs274muLs+191EpzW7u+Xc9XnWz97zrhp7L9BYPp0eLLaMvbdq33jE9D40b/LWfc+8d8QRv/R7gnte/Y3jEuS1f8Bni+sdt2dlMvlKTN/xrVSw8C5XXcFsP9ZzDzgevgOPVsKD6pJNzOL/J5sOax0Q7N6zV9vK8L8lxkFZ02wefAO7cq+HmxeTLdTprTLbm5XA2u5gPhpsvTj5OWOnf2daWk8p/lnezOz2Y/PvN5OOjyV9f5+fx9GTzn79Uxn8Nkf8D4/H4IDzB4woAAAAASUVORK5CYII='); background-repeat: no-repeat; }
 *                               { margin: 0; padding: 0; box-sizing: border-box; }
 body                            { font: 14px 'Quattrocento Sans', sans-serif; line-height: 22px; background: none; }
-a, a:active, a:visited, a:link  { color: #000; text-decoration: none; background-color: #FEF; }
-a:hover, a:focus                { color: #FFF; text-decoration: none; background-color: #82B; }
+a, a:active, a:visited, a:link  { color: #000; text-decoration: none; background: none; }
+a:hover, a:focus                { color: #FFF; text-decoration: none; background: none; }
 #page-wrap                      { width: 800px; margin: 0 auto; }
 .table                          { display: table; border-collapse: collapse; width: 100%; }
 .tr                             { display: table-row; }
@@ -31,6 +31,6 @@ h4                              { display: inline-block; }
 .job h4>time:last-of-type       { margin: 0 0 0 5px; }
 .job .skills                    { float: right; }
 a.button                        { display: block; margin: 40px auto 0; padding: 3px 5px 5px 5px; text-decoration: none; width: 60px; height: 30px; }
-a.button:visited, a.button:link { background-color: #82B; color: #FFF; border: 1px solid #82B; }
-a.button:hover, a.button:focus  { background-color: #93C; color: #FFF; }
-a.button:active                 { background-color: #FFF; color: #82B; }
+a.button:visited, a.button:link { background: none; color: #FFF; border: 1px solid #82B; }
+a.button:hover, a.button:focus  { background: none; color: #FFF; }
+a.button:active                 { background: none; color: #82B; }
