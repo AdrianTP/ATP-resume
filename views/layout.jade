@@ -7,15 +7,15 @@ html(lang="en")
 		#page-wrap
 			block header
 			section#main
-				dl
-					for section in sections
-						- var id = section.name.toLowerCase().replace(/\s/g, '-')
-						dt(id=id) #{section.name}
-						dd
-							case section.display
-								when "text"
-									= section.content
-								when "table"
-									+dispTable(section)
-								when "timeline"
-									+dispTimeline(section)
+				for section, i in sections
+					if i < sections.length - 1
+						hr
+					- var id = section.name.toLowerCase().replace(/\s/g, '-')
+					div(id=id)
+						case section.display
+							when "text"
+								= section.content
+							when "table"
+								+dispTable(section)
+							when "timeline"
+								+dispTimeline(section)

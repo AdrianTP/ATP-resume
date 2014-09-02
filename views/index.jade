@@ -48,12 +48,12 @@ block header
 									= output
 
 mixin dispTable(data)
-	table
+	.table
 		for part in data.content
 			for item in part.content
-				tr
+				.tr
 					for skill in item
-						td
+						.td
 							= skill
 
 mixin dispTimeline(data)
@@ -80,9 +80,10 @@ mixin dispTimeline(data)
 							h3
 								a(href=content.employer.website)
 									= content.employer.name
-								|&nbsp;
+							| 
 							span.position
 								= position.title
+							| 
 							span.role
 								= position.type
 								|, 
@@ -98,7 +99,7 @@ mixin dispTimeline(data)
 									li
 										= skill.name
 										if i < filteredSkills.length - 1
-											|,&nbsp;
+											|, 
 							h4
 								- var getMonthName = function(num, isZeroIndexed) {
 								-	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -111,7 +112,7 @@ mixin dispTimeline(data)
 								- var start = getMonthName(position.date.start.split('-')[1], false) + ' ' + position.date.start.split('-')[0];
 								time(datetime=position.date.start)
 									= start
-								|&nbsp;-&nbsp;
+								|-
 								if position.date.end === null
 									- var today = new Date();
 									- var endDateTime = '' + today.getFullYear() + '-' + ((today.getMonth() + 1).toString().length === 1 ? '0' : '') + (today.getMonth() + 1) + '-' + (today.getDate().toString().length === 1 ? '0' : '') + today.getDate();
@@ -121,11 +122,11 @@ mixin dispTimeline(data)
 									- var end = getMonthName(position.date.end.split('-')[1], false) + ' ' + position.date.end.split('-')[0];
 								time(datetime=endDateTime)
 									= end
-								|&nbsp;
-								span.location
-									= content.employer.address.city
-									|, 
-									= content.employer.address.state
+							span.location
+								= content.employer.address.city
+								|, 
+								= content.employer.address.state
+							| 
 							- var filteredResponsibilities = position.responsibilities.filter(function(val, i, arr) {
 							- 	return val.show;
 							- });

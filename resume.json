@@ -96,9 +96,9 @@
 					"name": "Skills",
 					"type": "list",
 					"content": [
-						["HTML 5", "CSS 3", "Sass/Less", "JavaScript", "jQuery", "PHP 5"],
-						["Node.JS", "Apache", "MySQL", "NetBeans", "Eclipse", "Linux"],
-						["Windows", "Mac OS", "Git"]
+						["HTML 5", "CSS 3", "Sass/Less", "JavaScript", "jQuery"],
+						["PHP 5", "Node.JS", "Apache", "MySQL", "NetBeans"],
+						["Eclipse", "Linux", "Windows", "Mac OS", "Git"]
 					]
 				}
 			]
