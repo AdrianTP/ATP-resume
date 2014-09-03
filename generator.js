@@ -80,7 +80,7 @@ var Server = function() {
 			routes.build(app, data);
 		},
 		start: function() {
-			server = app.listen(9999, function() {
+			server = app.listen(9999, '127.0.0.1', function() {
 				console.log('Listening on port %d', server.address().port);
 			});
 			return server;
