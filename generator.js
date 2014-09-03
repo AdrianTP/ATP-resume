@@ -41,21 +41,19 @@ var Routes = function() {
 };
 
 var Store = function() {
-//	var resumeData;
 	return {
 		data: {
 			resume: {}
 		},
 		load: function(name, filepath, callback) {
-			this._loadName = name;
-			this._loadCallback = callback;
-			
 			var _self = this;
-			fs.readFile(__dirname + filepath, {encoding: 'utf8'}, function(err, data) {
-				if (err) throw err;
-				_self.data[_self._loadName] = JSON.parse(data);
-				_self._loadCallback(_self.data[_self._loadName]);
-			});
+			(function(name, filepath, callback) {
+				fs.readFile(__dirname + filepath, {encoding: 'utf8'}, function(err, data) {
+					if (err) throw err;
+					_self.data[name] = JSON.parse(data);
+					callback(_self.data[name]);
+				});
+			})(name, filepath, callback);
 		}
 	};
 };
