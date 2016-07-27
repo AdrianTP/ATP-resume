@@ -18,6 +18,6 @@
 		, "jade": "*"
 	}
 	, "scripts": {
-		"start": "node server.js"
+		"start": "forever -s start /var/www/ATP-resume/server.js"
 	}
 }

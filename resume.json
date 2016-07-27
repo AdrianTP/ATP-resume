@@ -110,7 +110,7 @@
 			"groups": [
 				{
 					"start": "2012-01-06",
-					"end": "2014-12-31",
+					"end": "2014-03-10",
 					"show": true
 				},
 				{
@@ -126,51 +126,50 @@
 			],
 			"content": [
 				{
-					"show": true,
-					"employer": {
-						"name": "Sears Integrated Retail Labs",
-						"address": {
-							"street": null,
-							"city": "Chicago",
-							"state": "IL",
-							"country": "USA"
-						},
-						"website": "http://www.searslabs.com"
-					},
-					"positions": [
-						{
-							"title": "Web Developer",
-							"type": "Full-Time",
-							"role": "Contract",
-							"recruiter": "Aim Consulting (agency)",
-							"date": {
-								"start": "2014-03-10",
-								"end": null
-							},
-							"responsibilities": [
-								{"description": "Develop enterprise web applications", "show": true},
-								{"description": "Research new technologies", "show": true},
-								{"description": "Interact with testers and managers", "show": true},
-								{"description": "Keep up with changing requirements", "show": true},
-								{"description": "Write documentation", "show": true},
-								{"description": "Manage application and database servers", "show": true},
-								{"description": "Contribute modifications to 'Fetch' PHP IMAP library", "show": true}
-							],
-							"skills": [
-								{"name": "JavaScript", "show": true},
-								{"name": "AngularJS", "show": false},
-								{"name": "HTML 5", "show": true},
-								{"name": "CSS 3", "show": true},
-								{"name": "Sass/SCSS", "show": false},
-								{"name": "jQuery", "show": true},
-								{"name": "PHP 5", "show": true},
-								{"name": "MySQL", "show": true},
-								{"name": "NodeJS", "show": true},
-								{"name": "LAMP", "show": true}
-							]
-						}
-					]
-				},
+                                        "show": true,
+                                        "employer": {
+                                                "name": "Sears IMX Labs",
+                                                "address": {
+                                                        "street": "1 N. Dearborn St. 4th Floor",
+                                                        "city": "Chicago",
+                                                        "state": "IL",
+                                                        "country": "USA"
+                                                },
+                                                "website": "http://www.searslabs.com"
+                                        },
+                                        "positions": [
+                                                {
+                                                        "title": "Web Developer",
+                                                        "type": "Full-Time",
+                                                        "role": "Contract",
+                                                        "recruiter": "Aim Consulting (agency)",
+                                                        "date": {
+                                                                "start": "2014-03-10",
+                                                                "end": null
+                                                        },
+                                                        "responsibilities": [
+                                                                {"description": "Develop and maintain enterprise web applications", "show": true},
+                                                                {"description": "Research new technologies", "show": true},
+                                                                {"description": "Interact with testers and managers", "show": true},
+                                                                {"description": "Write documentation", "show": true},
+                                                                {"description": "Manage application and database servers", "show": true},
+                                                                {"description": "Contribute modifications to 'Fetch' PHP IMAP library", "show": true}
+                                                        ],
+                                                        "skills": [
+                                                                {"name": "JavaScript", "show": true},
+                                                                {"name": "AngularJS", "show": true},
+                                                                {"name": "HTML 5", "show": true},
+                                                                {"name": "CSS 3", "show": true},
+                                                                {"name": "Sass/SCSS/Less", "show": true},
+                                                                {"name": "jQuery", "show": true},
+                                                                {"name": "PHP 5.6", "show": true},
+                                                                {"name": "MySQL", "show": true},
+                                                                {"name": "NodeJS", "show": true},
+                                                                {"name": "LAMP", "show": true}
+                                                        ]
+                                                }
+                                        ]
+                                },
 				{
 					"show": true,
 					"employer": {
@@ -327,7 +326,7 @@
 					]
 				},
 				{
-					"show": true,
+					"show": false,
 					"employer": {
 						"name": "PosTrack Technologies",
 						"address": {
