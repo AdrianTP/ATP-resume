@@ -30,9 +30,9 @@ var Routes = function() {
 	return {
 		build: function(app, data) {
 			this._data = data;
-			
+
 			var _self = this;
-			
+
 			app.get('/', function(req, res) {
 				res.render('index', _self._data);
 			});

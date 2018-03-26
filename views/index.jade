@@ -57,80 +57,64 @@ mixin dispTable(data)
 							= skill
 
 mixin dispTimeline(data)
-	for group in data.groups
-		if group.show
-			- var start = new Date(group.start + 'T00:00:00.000Z').getTime()
-			- var end = new Date(group.end + 'T00:00:00.000Z').getTime()
-			-	var filteredContent = data.content.filter(function(val, index, ref) {
-			-		var keep = true;
-			-		for (var j in val.positions) {
-			-			var pos = val.positions[j];
-			-			var tempStart = new Date(pos.date.start).getTime();
-			-			var tempEnd = pos.date.end === null ? new Date().getTime() : new Date(pos.date.end).getTime();
-			-			if (tempStart < start || tempEnd > end) {
-			-				keep = false;
-			-			}
-			-		}
-			-		return keep;
-			-	});
-			for content in filteredContent
-				if content.show
-					for position in content.positions
-						.job
-							h3
-								a(href=content.employer.website)
-									= content.employer.name
-							| 
-							span.position
-								= position.title
-							| 
-							span.role
-								= position.type
-								|, 
-								= position.role
-								|, 
-								= position.recruiter
-							hr
-							ul.skills
-								- var filteredSkills = position.skills.filter(function(val, i, arr) {
-								- 	return val.show;
-								- });
-								for skill, i in filteredSkills
-									li
-										= skill.name
-										if i < filteredSkills.length - 1
-											|, 
-							h4
-								- var getMonthName = function(num, isZeroIndexed) {
-								-	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-								-	if (!isZeroIndexed) {
-								-		num -= 1;
-								-	}
-								-	return months[num];
-								-	console.log('hello');
-								- }
-								- var start = getMonthName(position.date.start.split('-')[1], false) + ' ' + position.date.start.split('-')[0];
-								time(datetime=position.date.start)
-									= start
-								|-
-								if position.date.end === null
-									- var today = new Date();
-									- var endDateTime = '' + today.getFullYear() + '-' + ((today.getMonth() + 1).toString().length === 1 ? '0' : '') + (today.getMonth() + 1) + '-' + (today.getDate().toString().length === 1 ? '0' : '') + today.getDate();
-									- var end = 'Present';
-								else
-									- var endDateTime = position.date.end;
-									- var end = getMonthName(position.date.end.split('-')[1], false) + ' ' + position.date.end.split('-')[0];
-								time(datetime=endDateTime)
-									= end
-							span.location
-								= content.employer.address.city
-								|, 
-								= content.employer.address.state
-							| 
-							- var filteredResponsibilities = position.responsibilities.filter(function(val, i, arr) {
-							- 	return val.show;
-							- });
-							for duty in filteredResponsibilities
-								p
-									= duty.description
+	for content in data.content
+		if content.show
+			for position in content.positions
+				.job
+					h3
+						a(href=content.employer.website)
+							= content.employer.name
+					| 
+					span.position
+						= position.title
+					| 
+					span.role
+						= position.type
+						|, 
+						= position.role
+						|, 
+						= position.recruiter
+					hr
+					ul.skills
+						- var filteredSkills = position.skills.filter(function(val, i, arr) {
+						- 	return val.show;
+						- });
+						for skill, i in filteredSkills
+							li
+								= skill.name
+								if i < filteredSkills.length - 1
+									|, 
+					h4
+						- var getMonthName = function(num, isZeroIndexed) {
+						-	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+						-	if (!isZeroIndexed) {
+						-		num -= 1;
+						-	}
+						-	return months[num];
+						-	console.log('hello');
+						- }
+						- var start = getMonthName(position.date.start.split('-')[1], false) + ' ' + position.date.start.split('-')[0];
+						time(datetime=position.date.start)
+							= start
+						|-
+						if position.date.end === null
+							- var today = new Date();
+							- var endDateTime = '' + today.getFullYear() + '-' + ((today.getMonth() + 1).toString().length === 1 ? '0' : '') + (today.getMonth() + 1) + '-' + (today.getDate().toString().length === 1 ? '0' : '') + today.getDate();
+							- var end = 'Present';
+						else
+							- var endDateTime = position.date.end;
+							- var end = getMonthName(position.date.end.split('-')[1], false) + ' ' + position.date.end.split('-')[0];
+						time(datetime=endDateTime)
+							= end
+					span.location
+						= content.employer.address.city
+						|, 
+						= content.employer.address.state
+					| 
+					- var filteredResponsibilities = position.responsibilities.filter(function(val, i, arr) {
+					- 	return val.show;
+					- });
+					for duty in filteredResponsibilities
+						p
+							= duty.description
 
