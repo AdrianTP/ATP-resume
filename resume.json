@@ -85,7 +85,7 @@
 			"name": "Summary",
 			"type": "text",
 			"display": "text",
-			"content": "I am a web developer from Chicago who enjoys developing web applications, working with data, and learning new technologies."
+			"content": "I am a software engineer from Chicago who enjoys developing web applications, R&D, working with data, and learning new technologies."
 		},
 		{
 			"name": "Skills",
@@ -96,6 +96,11 @@
 					"name": "Skills",
 					"type": "list",
 					"content": [
+						["Ruby", "Rails", "JavaScript", "SQL", "HTML 5"],
+						["Bash", "Python", "Go", "Node.JS", "Vim"],
+						["Linux", "macOS", "Windows", "Git", "Neo4j"]
+					],
+					"old-content": [
 						["HTML 5", "CSS 3", "Sass/Less", "JavaScript", "jQuery"],
 						["Ruby", "PHP 5", "Node.JS", "Apache", "MySQL"],
 						["Vim", "Linux", "Windows", "Mac OS", "Git"]
@@ -132,14 +137,18 @@
 							},
 							"responsibilities": [
 								{ "description": "Implement new features on B2B eneterprise financial services product", "show": true },
-								{ "description": "Reduce maintenance overhead by implementing JSON Schema on our API", "show": true },
-								{ "description": "Enable visual decision workflow designer tool by implementing custom DAG interpreter", "show": true }
+								{ "description": "Reduce maintenance overhead by implementing JSON Schema on product's REST API", "show": true },
+								{ "description": "Empower clients to create flexible decision workflows with custom DAG interpreter", "show": true },
+								{ "description": "Perform support for: deployments, client issues, and Major Incidents", "show": true },
+								{ "description": "Develop and maintain common dependencies for multiple client applications", "show": true }
 							],
 							"skills": [
 								{ "name": "Ruby", "show": true },
 								{ "name": "Rails", "show": true },
 								{ "name": "Postgres", "show": true },
-								{ "name": "JavaScript", "show": true }
+								{ "name": "ES 6", "show": true },
+								{ "name": "Go", "show": true },
+								{ "name": "Python", "show": true }
 							]
 						}
 					]
@@ -424,6 +433,73 @@
 				},
 				{
 					"show": true,
+					"employer": {
+						"name": "PosTrack Technologies",
+						"address": {
+							"street": null,
+							"city": "Joliet",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://web.archive.org/web/20110129071638/http://www.postrack.net/Home.aspx"
+					},
+					"positions": [
+						{
+							"title": "(Multiple Roles)",
+							"type": "Full-Time",
+							"role": "Permanent",
+							"recruiter": "Direct-Hire / Internal Recruitment",
+							"date": {
+								"start": "2008-10-01",
+								"end": "2012-01-05"
+							},
+							"responsibilities": [
+								{ "description": "Researched CMS technologies", "show": false },
+								{ "description": "Created low-maintenance training portal video player", "show": false },
+								{ "description": "Began redevelopment of the company website", "show": true },
+								{ "description": "Repaired and maintained several hundred Windows-based point-of-sale registers, kitchen displays, management consoles, and servers", "show": false },
+								{ "description": "Provided support by phone, email, remote-access, and on-site", "show": false },
+								{ "description": "Received, repaired, shipped, and tracked defective or malfunctioning units", "show": false },
+								{ "description": "Troubleshooted hardware, software, and network issues", "show": false },
+								{ "description": "Documented issues and methods of repair", "show": false },
+								{ "description": "Trained and supported end users: cashiers, kitchen staff, and managers", "show": false },
+								{ "description": "Updated clients to meet PCI requirements", "show": false },
+								{ "description": "Assisted in on-site installation of VoIP hardware", "show": false },
+								{ "description": "Installed and configure Asterisk-based IP PBX software", "show": false },
+								{ "description": "Installed and configure CentOS 5 Linux servers", "show": false },
+								{ "description": "Implemented OpenVPN across all client machines, reducing support call times by 80%", "show": true },
+								{ "description": "Provided additional support for VoIP telecom department clients", "show": false },
+								{ "description": "Built internal web apps, resulting in my induction to the Marketing team", "show": true }
+							],
+							"skills": [
+								{ "name": "XHTML", "show": true },
+								{ "name": "CSS 3", "show": true },
+								{ "name": "JavaScript", "show": true },
+								{ "name": "Drupal", "show": false },
+								{ "name": "Joomla", "show": false },
+								{ "name": "Sitefinity", "show": false },
+								{ "name": "CMS platforms", "show": false },
+								{ "name": "LAMP", "show": false },
+								{ "name": "Windows IIS", "show": false },
+								{ "name": "PHP 4", "show": true },
+								{ "name": "MySQL", "show": true },
+								{ "name": "Windows", "show": false },
+								{ "name": "TCP/IP", "show": false },
+								{ "name": "Linux", "show": false },
+								{ "name": "Asterisk PBX", "show": false },
+								{ "name": "Point-of-Sale hardware and software", "show": false },
+								{ "name": "Epson receipt printers (thermal and impact)", "show": false },
+								{ "name": "LAMP", "show": false },
+								{ "name": "XHTML", "show": false },
+								{ "name": "CSS 2", "show": false },
+								{ "name": "CSS 3", "show": false },
+								{ "name": "JavaScript", "show": false }
+							]
+						}
+					]
+				},
+				{
+					"show": false,
 					"employer": {
 						"name": "PosTrack Technologies",
 						"address": {
