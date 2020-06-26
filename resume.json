@@ -139,7 +139,7 @@
 								{ "description": "Implement new features on B2B eneterprise financial services product", "show": true },
 								{ "description": "Reduce maintenance overhead by implementing JSON Schema on product's REST API", "show": true },
 								{ "description": "Empower clients to create flexible decision workflows with custom DAG interpreter", "show": true },
-								{ "description": "Perform support for: deployments, client issues, and Major Incidents", "show": true },
+								{ "description": "Perform support for: deployments, client issues, and production incidents", "show": true },
 								{ "description": "Develop and maintain common dependencies for multiple client applications", "show": true }
 							],
 							"skills": [
