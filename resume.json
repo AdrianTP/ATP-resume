@@ -136,7 +136,7 @@
 								"end": "2020-06-26"
 							},
 							"responsibilities": [
-								{ "description": "Reduced maintenance overhead by replacing inline validations with JSON Schema on a several REST API endpoints", "show": true },
+								{ "description": "Reduced maintenance overhead by replacing separate inline validations with centralised JSON Schema on several REST API endpoints", "show": true },
 								{ "description": "Co-developed custom DAG interpreter, empowering clients to create flexible decision workflows", "show": true },
 								{ "description": "Performed support for deployments, client issues, and production incidents", "show": true },
 								{ "description": "Developed and maintained Ruby gems; Rails applications; Ruby and Go microservices; and Go AWS lambdas", "show": true },
