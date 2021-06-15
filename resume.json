@@ -136,7 +136,7 @@
 								"end": "2020-06-26"
 							},
 							"responsibilities": [
-								{ "description": "Reduced maintenance overhead by replacing separate inline validations with centralised JSON Schema on several REST API endpoints", "show": true },
+								{ "description": "Reduced maintenance overhead by replacing inline validations with centralised JSON Schema on several REST API endpoints", "show": true },
 								{ "description": "Co-developed custom DAG interpreter, empowering clients to create flexible decision workflows", "show": true },
 								{ "description": "Performed support for deployments, client issues, and production incidents", "show": true },
 								{ "description": "Developed and maintained Ruby gems; Rails applications; Ruby and Go microservices; and Go AWS lambdas", "show": true },
@@ -217,7 +217,9 @@
 								"end": "2016-05-13"
 							},
 							"responsibilities": [
-								{ "description": "Developed and supported marketing campaign coordination portal with email integration; learning management application; and retail employee recognition tool", "show": true },
+								{ "description": "Developed marketing campaign portal with email integration, enabling seamless transition from accustomed workflows", "show": true },
+								{ "description": "Developed learning management application for internal employee training; white-labelled for external sales", "show": true },
+								{ "description": "Redeveloped internal retail employee recognition tool, bringing it up-to-date with best practises and intuitive UX", "show": true },
 								{ "description": "Researched new technologies", "show": false },
 								{ "description": "Interacted with testers and managers", "show": false },
 								{ "description": "Kept up with changing requirements", "show": false },
@@ -304,8 +306,8 @@
 								"end": "2012-10-01"
 							},
 							"responsibilities": [
-								{ "description": "Contributed research, design, and code to greenfield web catalog showcasing the firm's projects to new clients", "show": true },
-								{ "description": "Researched and implemented best-practice frameworks and technologies to improve efficiency", "show": false },
+								{ "description": "Contributed design and code to greenfield web catalog showcasing the firm's projects to new clients", "show": true },
+								{ "description": "Researched and implemented best-practice frameworks and technologies to improve efficiency", "show": true },
 								{ "description": "Implemented Front-End code and business logic", "show": false }
 							],
 							"skills": [
@@ -347,8 +349,8 @@
 								"end": "2013-06-01"
 							},
 							"responsibilities": [
-								{ "description": "Developed Drupal website and trained staff in content authoring at Zagnoli, McEvoy, Foley", "show": true },
-								{ "description": "Assembled HTML emails from PSD templates at Gordon Hanrahan", "show": true }
+								{ "description": "Re-developed Drupal website and trained staff in content authoring at Zagnoli, McEvoy, Foley", "show": true },
+								{ "description": "Assembled cross-client HTML emails from PSD templates at Gordon Hanrahan", "show": true }
 							],
 							"skills": [
 								{ "name": "Drupal", "show": true },
@@ -444,7 +446,7 @@
 					},
 					"positions": [
 						{
-							"title": "Multiple Roles: Support Technician, Interactive Marketing Developer",
+							"title": "(Multiple Roles)",
 							"type": "Full-Time",
 							"role": "Permanent",
 							"recruiter": "Direct-Hire / Internal Recruitment",
@@ -453,8 +455,6 @@
 								"end": "2012-01-05"
 							},
 							"responsibilities": [
-								{ "description": "Created low-maintenance training portal video player", "show": false },
-								{ "description": "Initiated redevelopment of the company website, performing research and providing templates for Marketing team", "show": false },
 								{ "description": "Repaired and maintained several hundred Windows-based point-of-sale registers, kitchen displays, management consoles, and servers", "show": false },
 								{ "description": "Provided support by phone, email, remote-access, and on-site", "show": false },
 								{ "description": "Received, repaired, shipped, and tracked defective or malfunctioning units", "show": false },
@@ -467,7 +467,9 @@
 								{ "description": "Installed and configured CentOS 5 Linux servers", "show": false },
 								{ "description": "Implemented OpenVPN across all client machines, reducing support call times by 80%", "show": true },
 								{ "description": "Provided additional support for VoIP telecom department clients", "show": false },
-								{ "description": "Built internal web apps to automate and streamline repetitive manual paperwork processes, resulting in my induction to the Marketing team", "show": true }
+								{ "description": "Built web apps to automate and streamline manual paperwork processes, resulting in my induction to the Marketing team", "show": true },
+								{ "description": "Created low-maintenance training portal video player", "show": false },
+								{ "description": "Initiated redevelopment of the company website, performing research and providing templates for Marketing team", "show": false }
 							],
 							"skills": [
 								{ "name": "XHTML", "show": true },
