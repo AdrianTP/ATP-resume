@@ -123,7 +123,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.enova.com"
+						"website": "https://web.archive.org/web/20200630081930/https://www.enova.com/"
 					},
 					"positions": [
 						{
@@ -136,11 +136,11 @@
 								"end": "2020-06-26"
 							},
 							"responsibilities": [
-								{ "description": "Implemented new features on B2B eneterprise financial services product", "show": true },
-								{ "description": "Reduced maintenance overhead by implementing JSON Schema on product's REST API", "show": true },
-								{ "description": "Empowered clients to create flexible decision workflows with custom DAG interpreter", "show": true },
-								{ "description": "Performed support for: deployments, client issues, and production incidents", "show": true },
-								{ "description": "Developed and maintained common dependencies for multiple client applications", "show": true }
+								{ "description": "Reduced maintenance overhead by replacing inline validations with centralised JSON Schema on several REST API endpoints", "show": true },
+								{ "description": "Co-developed custom DAG interpreter, empowering clients to create flexible decision workflows", "show": true },
+								{ "description": "Performed support for deployments, client issues, and production incidents", "show": true },
+								{ "description": "Developed and maintained Ruby gems; Rails applications; Ruby and Go microservices; and Go AWS lambdas", "show": true },
+								{ "description": "Onboarded to Data Engineering team, supporting Data Quality initiatives for DB streaming replication", "show": true }
 							],
 							"skills": [
 								{ "name": "Ruby", "show": true },
@@ -163,7 +163,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.hologram.io"
+						"website": "https://web.archive.org/web/20160812004937/https://hologram.io/"
 					},
 					"positions": [
 						{
@@ -176,11 +176,11 @@
 								"end": "2016-07-22"
 							},
 							"responsibilities": [
-								{ "description": "Maintained diverse applications across front-end and back-end", "show": true },
-								{ "description": "Performed overhaul of documentation following rebranding and server migration", "show": true },
+								{ "description": "Maintained website and contributed code to customer portal API and GUI", "show": true },
+								{ "description": "Performed overhaul of user-facing product documentation following rebranding and server migration", "show": true },
 								{ "description": "Wrote additional documentation", "show": false },
 								{ "description": "Began conversion of documentation to Metalsmith for open-source distribution", "show": false },
-								{ "description": "Took part in company Hack Days to encourage innovation", "show": true }
+								{ "description": "Participated in company Hack Days, demonstrating and writing-up diverse use-cases for our cellular IoT product", "show": true }
 							],
 							"skills": [
 								{ "name": "JavaScript", "show": true },
@@ -204,7 +204,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.searslabs.com"
+						"website": "https://web.archive.org/web/20160513034606/http://www.searslabs.com/"
 					},
 					"positions": [
 						{
@@ -217,13 +217,15 @@
 								"end": "2016-05-13"
 							},
 							"responsibilities": [
-								{ "description": "Developed enterprise web applications", "show": true },
+								{ "description": "Developed marketing campaign portal with email integration, enabling seamless transition from accustomed workflows", "show": true },
+								{ "description": "Developed learning management application for internal employee training; white-labelled for external sales", "show": true },
+								{ "description": "Redeveloped internal retail employee recognition tool, bringing it up-to-date with best practises and intuitive UX", "show": true },
 								{ "description": "Researched new technologies", "show": false },
 								{ "description": "Interacted with testers and managers", "show": false },
 								{ "description": "Kept up with changing requirements", "show": false },
 								{ "description": "Wrote documentation", "show": false },
 								{ "description": "Managed application and database servers", "show": false },
-								{ "description": "Contributed modifications to 'Fetch' PHP IMAP library", "show": true }
+								{ "description": "Contributed modifications to 'Fetch' PHP IMAP library, providing improved handling of embedded .eml files", "show": true }
 							],
 							"skills": [
 								{ "name": "JavaScript", "show": true },
@@ -250,7 +252,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.siteworx.com"
+						"website": "https://web.archive.org/web/20140208031339/http://www.siteworx.com/"
 					},
 					"positions": [
 						{
@@ -263,10 +265,9 @@
 								"end": "2014-02-19"
 							},
 							"responsibilities": [
-								{ "description": "Developed custom JavaScript", "show": false },
-								{ "description": "Integrated various libraries including jQuery and Handlebars", "show": false },
+								{ "description": "Developed custom JavaScript, also leveraging jQuery and Handlebars", "show": false },
 								{ "description": "Built and supported websites on two different CMS platforms", "show": true },
-								{ "description": "Helped interview and train new employees", "show": true },
+								{ "description": "Assisted in building out team by interviewing, onboarding, and training new employees", "show": true },
 								{ "description": "Integrated seamlessly into client organizations for on-site work as-needed", "show": false }
 							],
 							"skills": [
@@ -292,7 +293,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.perkinswill.com"
+						"website": "https://web.archive.org/web/20121005080223/http://www.perkinswill.com/"
 					},
 					"positions": [
 						{
@@ -305,8 +306,8 @@
 								"end": "2012-10-01"
 							},
 							"responsibilities": [
-								{ "description": "Helped build internal web app from ground up", "show": true },
-								{ "description": "Researched frameworks and technologies to use", "show": true },
+								{ "description": "Contributed design and code to greenfield web catalog showcasing the firm's projects to new clients", "show": true },
+								{ "description": "Researched and implemented best-practice frameworks and technologies to improve efficiency", "show": true },
 								{ "description": "Implemented Front-End code and business logic", "show": false }
 							],
 							"skills": [
@@ -335,7 +336,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "https://www.roberthalf.com/work-with-us/our-services/creativegroup"
+						"website": "https://web.archive.org/web/20171006083237/https://www.roberthalf.com/work-with-us/our-services/creativegroup"
 					},
 					"positions": [
 						{
@@ -348,8 +349,8 @@
 								"end": "2013-06-01"
 							},
 							"responsibilities": [
-								{ "description": "Developed Drupal website and trained staff at Zagnoli, McEvoy, Foley", "show": true },
-								{ "description": "Assembled HTML emails from PSD templates at Gordon Hanrahan", "show": true }
+								{ "description": "Re-developed Drupal website and trained staff in content authoring at Zagnoli, McEvoy, Foley", "show": true },
+								{ "description": "Assembled cross-client HTML emails from PSD templates at Gordon Hanrahan", "show": true }
 							],
 							"skills": [
 								{ "name": "Drupal", "show": true },
@@ -371,7 +372,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.zmf.com"
+						"website": "https://web.archive.org/web/20130622023638/http://zmf.com/"
 					},
 					"positions": [
 						{
@@ -387,7 +388,7 @@
 								{ "description": "Created custom cost estimator", "show": false },
 								{ "description": "Administered Drupal website", "show": false },
 								{ "description": "Provided documentation to enable self-sufficiency upon project completion", "show": false },
-								{ "description": "Developed Drupal website and trained staff", "show": true }
+								{ "description": "Developed Drupal website and trained staff in content authoring", "show": true }
 							],
 							"skills": [
 								{ "name": "Drupal", "show": true },
@@ -409,7 +410,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.gordonhanrahan.com"
+						"website": "https://web.archive.org/web/20120527181307/http://www.gordonhanrahan.com/"
 					},
 					"positions": [
 						{
@@ -454,22 +455,21 @@
 								"end": "2012-01-05"
 							},
 							"responsibilities": [
-								{ "description": "Researched CMS technologies", "show": false },
-								{ "description": "Created low-maintenance training portal video player", "show": false },
-								{ "description": "Began redevelopment of the company website", "show": true },
 								{ "description": "Repaired and maintained several hundred Windows-based point-of-sale registers, kitchen displays, management consoles, and servers", "show": false },
 								{ "description": "Provided support by phone, email, remote-access, and on-site", "show": false },
 								{ "description": "Received, repaired, shipped, and tracked defective or malfunctioning units", "show": false },
 								{ "description": "Troubleshooted hardware, software, and network issues", "show": false },
 								{ "description": "Documented issues and methods of repair", "show": false },
-								{ "description": "Trained and supported end users: cashiers, kitchen staff, and managers", "show": false },
+								{ "description": "Trained and supported end users: cashiers, kitchen staff, and location managers", "show": false },
 								{ "description": "Updated clients to meet PCI requirements", "show": false },
 								{ "description": "Assisted in on-site installation of VoIP hardware", "show": false },
-								{ "description": "Installed and configure Asterisk-based IP PBX software", "show": false },
-								{ "description": "Installed and configure CentOS 5 Linux servers", "show": false },
+								{ "description": "Installed and configured Asterisk-based IP PBX software", "show": false },
+								{ "description": "Installed and configured CentOS 5 Linux servers", "show": false },
 								{ "description": "Implemented OpenVPN across all client machines, reducing support call times by 80%", "show": true },
 								{ "description": "Provided additional support for VoIP telecom department clients", "show": false },
-								{ "description": "Built internal web apps, resulting in my induction to the Marketing team", "show": true }
+								{ "description": "Built web apps to automate and streamline manual paperwork processes, resulting in my induction to the Marketing team", "show": true },
+								{ "description": "Created low-maintenance training portal video player", "show": false },
+								{ "description": "Initiated redevelopment of the company website, performing research and providing templates for Marketing team", "show": false }
 							],
 							"skills": [
 								{ "name": "XHTML", "show": true },
@@ -588,7 +588,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.cod.edu/programs/anthropology/index.aspx"
+						"website": "https://web.archive.org/web/20120310003611/http://www.cod.edu/programs/anthropology/index.aspx"
 					},
 					"positions": [
 						{
@@ -661,7 +661,7 @@
 							"state": "IL",
 							"country": "USA"
 						},
-						"website": "http://www.panelshop.net"
+						"website": "https://web.archive.org/web/20050213054314/http://panelshop.net/"
 					},
 					"positions": [
 						{
