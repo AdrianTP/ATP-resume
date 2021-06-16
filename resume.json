@@ -116,6 +116,48 @@
 				{
 					"show": true,
 					"employer": {
+						"name": "OneMain Financial",
+						"address": {
+							"street": null,
+							"city": "Chicago",
+							"state": "IL",
+							"country": "USA"
+						},
+						"website": "http://www.omf.com"
+					},
+					"positions": [
+						{
+							"title": "Sr. Software Engineer",
+							"type": "Full-Time",
+							"role": "Permanent",
+							"recruiter": "Direct Hire",
+							"date": {
+								"start": "2020-11-01",
+								"end": null
+							},
+							"responsibilities": [
+								{ "description": "Update and improve project and process documentation, including new-hire onboarding and system configuration scripts", "show": true },
+								{ "description": "Lead discussion and implementation of improvements to business processes, meetings schedule, and developer workflow", "show": true },
+								{ "description": "Collaborate with remote employees of all levels to design, research, and build new features and services", "show": true },
+								{ "description": "Support co-founded organisation-wide technical debt resolution initiative", "show": true },
+								{ "description": "Improve team cohesion and provide mentorship by participating in code reviews, pairing sessions, and other efforts", "show": true },
+								{ "description": "Advocate for code quality, industry standards, monitoring fidelity, system resilience, incident response, and disaster recovery", "show": true },
+								{ "description": "Groom, refine, and maintain a robust backlog of well-defined tickets", "show": true }
+							],
+							"skills": [
+								{ "name": "Ruby", "show": true },
+								{ "name": "Rails", "show": true },
+								{ "name": "Postgres", "show": true },
+								{ "name": "Story Writing", "show": true },
+								{ "name": "Sprint Planning", "show": true },
+								{ "name": "Project Coordination", "show": true }
+							]
+						}
+					]
+				},
+				{
+					"show": true,
+					"employer": {
 						"name": "Enova",
 						"address": {
 							"street": null,
@@ -136,11 +178,13 @@
 								"end": "2020-06-26"
 							},
 							"responsibilities": [
-								{ "description": "Reduced maintenance overhead by replacing inline validations with centralised JSON Schema on several REST API endpoints", "show": true },
-								{ "description": "Co-developed custom DAG interpreter, empowering clients to create flexible decision workflows", "show": true },
-								{ "description": "Performed support for deployments, client issues, and production incidents", "show": true },
-								{ "description": "Developed and maintained Ruby gems; Rails applications; Ruby and Go microservices; and Go AWS lambdas", "show": true },
-								{ "description": "Onboarded to Data Engineering team, supporting Data Quality initiatives for DB streaming replication", "show": true }
+								{ "description": "Reduced development cost and improved customer flexibility with JSON Schema and custom DAG interpreter", "show": true },
+								{ "description": "Contributed to Ruby gems; Rails applications; Ruby and Go microservices; Go AWS lambdas; and Python streaming DB replicator", "show": true },
+								{ "description": "Reduced maintenance overhead by replacing inline validations with centralised JSON Schema on several REST API endpoints", "show": false },
+								{ "description": "Co-developed custom DAG interpreter, empowering clients to create flexible decision workflows", "show": false },
+								{ "description": "Supported deployments, client issues, and production incidents", "show": true },
+								{ "description": "Developed and maintained Ruby gems; Rails applications; Ruby and Go microservices; and Go AWS lambdas", "show": false },
+								{ "description": "Onboarded to Data Engineering team, supporting Data Quality initiatives for DB streaming replication", "show": false }
 							],
 							"skills": [
 								{ "name": "Ruby", "show": true },
@@ -148,7 +192,8 @@
 								{ "name": "Postgres", "show": true },
 								{ "name": "ES 6", "show": true },
 								{ "name": "Go", "show": true },
-								{ "name": "Python", "show": true }
+								{ "name": "Python", "show": true },
+								{ "name": "Snowflake", "show": true }
 							]
 						}
 					]
@@ -176,11 +221,12 @@
 								"end": "2016-07-22"
 							},
 							"responsibilities": [
-								{ "description": "Maintained website and contributed code to customer portal API and GUI", "show": true },
-								{ "description": "Performed overhaul of user-facing product documentation following rebranding and server migration", "show": true },
+								{ "description": "Contributed to website, customer portal, and API; overhauled user documentation; wrote up use-cases for our celular IoT product", "show": true },
+								{ "description": "Maintained website and contributed code to customer portal API and GUI", "show": false },
+								{ "description": "Overhauled user-facing product documentation following rebranding and server migration", "show": false },
 								{ "description": "Wrote additional documentation", "show": false },
 								{ "description": "Began conversion of documentation to Metalsmith for open-source distribution", "show": false },
-								{ "description": "Participated in company Hack Days, demonstrating and writing-up diverse use-cases for our cellular IoT product", "show": true }
+								{ "description": "Participated in company Hack Days, demonstrating and writing-up diverse use-cases for our cellular IoT product", "show": false }
 							],
 							"skills": [
 								{ "name": "JavaScript", "show": true },
@@ -189,7 +235,8 @@
 								{ "name": "PHP 5", "show": true },
 								{ "name": "MySQL", "show": true },
 								{ "name": "NodeJS", "show": true },
-								{ "name": "LAMP", "show": true }
+								{ "name": "LAMP", "show": true },
+								{ "name": "Atmel C/C++", "show": true }
 							]
 						}
 					]
@@ -217,22 +264,23 @@
 								"end": "2016-05-13"
 							},
 							"responsibilities": [
-								{ "description": "Developed marketing campaign portal with email integration, enabling seamless transition from accustomed workflows", "show": true },
-								{ "description": "Developed learning management application for internal employee training; white-labelled for external sales", "show": true },
-								{ "description": "Redeveloped internal retail employee recognition tool, bringing it up-to-date with best practises and intuitive UX", "show": true },
+								{ "description": "Developed email-integrated marketing campaign portal, learning management application, and employee recognition tool", "show": true },
+								{ "description": "Developed marketing campaign portal with email integration, enabling seamless transition from accustomed workflows", "show": false },
+								{ "description": "Developed learning management application for internal employee training; white-labelled for external sales", "show": false },
+								{ "description": "Redeveloped internal retail employee recognition tool, bringing it up-to-date with best practises and intuitive UX", "show": false },
 								{ "description": "Researched new technologies", "show": false },
 								{ "description": "Interacted with testers and managers", "show": false },
 								{ "description": "Kept up with changing requirements", "show": false },
 								{ "description": "Wrote documentation", "show": false },
 								{ "description": "Managed application and database servers", "show": false },
-								{ "description": "Contributed modifications to 'Fetch' PHP IMAP library, providing improved handling of embedded .eml files", "show": true }
+								{ "description": "Contributed modifications to 'Fetch' PHP IMAP library, providing improved handling of embedded .eml files", "show": false }
 							],
 							"skills": [
 								{ "name": "JavaScript", "show": true },
-								{ "name": "AngularJS", "show": false },
+								{ "name": "AngularJS", "show": true },
 								{ "name": "HTML 5", "show": true },
 								{ "name": "CSS 3", "show": true },
-								{ "name": "Sass/SCSS", "show": false },
+								{ "name": "Sass/SCSS", "show": true },
 								{ "name": "jQuery", "show": true },
 								{ "name": "PHP 5", "show": true },
 								{ "name": "MySQL", "show": true },
@@ -265,9 +313,10 @@
 								"end": "2014-02-19"
 							},
 							"responsibilities": [
+								{ "description": "Built and supported websites on two different CMS platforms; grew team by interviewing candidates and training new employees", "show": true },
 								{ "description": "Developed custom JavaScript, also leveraging jQuery and Handlebars", "show": false },
-								{ "description": "Built and supported websites on two different CMS platforms", "show": true },
-								{ "description": "Assisted in building out team by interviewing, onboarding, and training new employees", "show": true },
+								{ "description": "Built and supported websites on two different CMS platforms", "show": false },
+								{ "description": "Assisted in building out team by interviewing, onboarding, and training new employees", "show": false },
 								{ "description": "Integrated seamlessly into client organizations for on-site work as-needed", "show": false }
 							],
 							"skills": [
@@ -277,8 +326,8 @@
 								{ "name": "JavaScript", "show": true },
 								{ "name": "jQuery", "show": true },
 								{ "name": "Handlebars", "show": true },
-								{ "name": "Adobe CQ 5", "show": false },
-								{ "name": "JSP", "show": false }
+								{ "name": "Adobe CQ 5", "show": true },
+								{ "name": "JSP", "show": true }
 							]
 						}
 					]
@@ -306,8 +355,9 @@
 								"end": "2012-10-01"
 							},
 							"responsibilities": [
-								{ "description": "Contributed design and code to greenfield web catalog showcasing the firm's projects to new clients", "show": true },
-								{ "description": "Researched and implemented best-practice frameworks and technologies to improve efficiency", "show": true },
+								{ "description": "Performed design, research, and development for an interactive portfolio web app showcasing the firm's architectural works", "show": true },
+								{ "description": "Contributed design and code to greenfield web catalog showcasing the firm's projects to new clients", "show": false },
+								{ "description": "Researched and implemented best-practice frameworks and technologies to improve efficiency", "show": false },
 								{ "description": "Implemented Front-End code and business logic", "show": false }
 							],
 							"skills": [
@@ -349,14 +399,15 @@
 								"end": "2013-06-01"
 							},
 							"responsibilities": [
-								{ "description": "Re-developed Drupal website and trained staff in content authoring at Zagnoli, McEvoy, Foley", "show": true },
-								{ "description": "Assembled cross-client HTML emails from PSD templates at Gordon Hanrahan", "show": true }
+								{ "description": "Overhauled website and trained staff at Zagnoli, McEvoy, Foley; developed emails from PSD templates at Gordon Hanrahan", "show": true },
+								{ "description": "Re-developed Drupal website and trained staff in content authoring at Zagnoli, McEvoy, Foley", "show": false },
+								{ "description": "Assembled cross-client HTML emails from PSD templates at Gordon Hanrahan", "show": false }
 							],
 							"skills": [
 								{ "name": "Drupal", "show": true },
 								{ "name": "XHTML", "show": true },
 								{ "name": "CSS 3", "show": true },
-								{ "name": "JavaScript", "show": false },
+								{ "name": "JavaScript", "show": true },
 								{ "name": "jQuery", "show": true }
 							]
 						}
@@ -449,12 +500,13 @@
 							"title": "(Multiple Roles)",
 							"type": "Full-Time",
 							"role": "Permanent",
-							"recruiter": "Direct-Hire / Internal Recruitment",
+							"recruiter": "Direct Hire",
 							"date": {
 								"start": "2008-10-01",
 								"end": "2012-01-05"
 							},
 							"responsibilities": [
+								{ "description": "Provided remote and on-site customer support; installed, configured, and managed servers; developed web applications", "show": true },
 								{ "description": "Repaired and maintained several hundred Windows-based point-of-sale registers, kitchen displays, management consoles, and servers", "show": false },
 								{ "description": "Provided support by phone, email, remote-access, and on-site", "show": false },
 								{ "description": "Received, repaired, shipped, and tracked defective or malfunctioning units", "show": false },
@@ -465,9 +517,9 @@
 								{ "description": "Assisted in on-site installation of VoIP hardware", "show": false },
 								{ "description": "Installed and configured Asterisk-based IP PBX software", "show": false },
 								{ "description": "Installed and configured CentOS 5 Linux servers", "show": false },
-								{ "description": "Implemented OpenVPN across all client machines, reducing support call times by 80%", "show": true },
+								{ "description": "Implemented OpenVPN across all client machines, reducing support call times by 80%", "show": false },
 								{ "description": "Provided additional support for VoIP telecom department clients", "show": false },
-								{ "description": "Built web apps to automate and streamline manual paperwork processes, resulting in my induction to the Marketing team", "show": true },
+								{ "description": "Built web apps to automate and streamline manual paperwork processes, resulting in my induction to the Marketing team", "show": false },
 								{ "description": "Created low-maintenance training portal video player", "show": false },
 								{ "description": "Initiated redevelopment of the company website, performing research and providing templates for Marketing team", "show": false }
 							],
@@ -483,17 +535,12 @@
 								{ "name": "Windows IIS", "show": false },
 								{ "name": "PHP 4", "show": true },
 								{ "name": "MySQL", "show": true },
-								{ "name": "Windows", "show": false },
+								{ "name": "Windows", "show": true },
 								{ "name": "TCP/IP", "show": false },
-								{ "name": "Linux", "show": false },
-								{ "name": "Asterisk PBX", "show": false },
+								{ "name": "Linux", "show": true },
+								{ "name": "Asterisk PBX", "show": true },
 								{ "name": "Point-of-Sale hardware and software", "show": false },
-								{ "name": "Epson receipt printers (thermal and impact)", "show": false },
-								{ "name": "LAMP", "show": false },
-								{ "name": "XHTML", "show": false },
-								{ "name": "CSS 2", "show": false },
-								{ "name": "CSS 3", "show": false },
-								{ "name": "JavaScript", "show": false }
+								{ "name": "Epson receipt printers (thermal and impact)", "show": false }
 							]
 						}
 					]
@@ -523,7 +570,7 @@
 							"responsibilities": [
 								{ "description": "Researched CMS technologies", "show": false },
 								{ "description": "Created low-maintenance training portal video player", "show": false },
-								{ "description": "Began redevelopment of the company website", "show": true }
+								{ "description": "Began redevelopment of the company website", "show": false }
 							],
 							"skills": [
 								{ "name": "XHTML", "show": true },
