@@ -207,6 +207,10 @@
                 {
                   "description": "Collaborate with other organisations, including Engineering, Design, Business, Ops, Security, and Database Administration",
                   "show": false
+                },
+                {
+                  "description": "Support and champion Web Accessibility standards",
+                  "show": false
                 }
               ],
               "skills": [
@@ -220,6 +224,18 @@
                 },
                 {
                   "name": "Postgres",
+                  "show": true
+                },
+                {
+                  "name": "NodeJS",
+                  "show": true
+                },
+                {
+                  "name": "Angular",
+                  "show": true
+                },
+                {
+                  "name": "AWS",
                   "show": true
                 },
                 {
