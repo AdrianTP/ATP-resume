@@ -85,7 +85,7 @@
       "name": "Summary",
       "type": "text",
       "display": "text",
-      "content": "I am a software engineer from Chicago who enjoys developing web applications, R&D, working with data, and learning new technologies."
+      "content": "Chicago-based engineer specializing in navigating technical unknowns and architecting innovative paths to success through R&D. Driven by the philosophy that a rising tide lifts all ships, I bridge organizational gaps and mentor talent to cultivate a culture of trust that reduces roadblocks and delivers high-velocity, high-quality results."
     },
     {
       "name": "Skills",
@@ -101,44 +101,21 @@
               "Rails",
               "JavaScript",
               "SQL",
-              "HTML 5"
-            ],
-            [
-              "Bash",
-              "Python",
-              "Go",
-              "Node.JS",
-              "Vim"
-            ],
-            [
-              "Linux",
-              "macOS",
-              "Windows",
-              "Git",
-              "Neo4j"
-            ]
-          ],
-          "old-content": [
-            [
-              "HTML 5",
-              "CSS 3",
-              "Sass/Less",
-              "JavaScript",
-              "jQuery"
-            ],
-            [
-              "Ruby",
-              "PHP 5",
-              "Node.JS",
-              "Apache",
-              "MySQL"
+              "Bash"
             ],
             [
               "Vim",
-              "Linux",
-              "Windows",
-              "Mac OS",
-              "Git"
+              "NodeJS",
+              "Python",
+              "Git",
+              "AWS"
+            ],
+            [
+              "CI/CD",
+              "Technical Mentorship",
+              "Application Architecture",
+              "System Architecture",
+              "Distributed Systems"
             ]
           ]
         }
@@ -169,48 +146,36 @@
               "recruiter": "Direct Hire, Internal Promotion",
               "date": {
                 "start": "2020-11-01",
-                "end": null
+                "end": "2025-02-10"
               },
               "responsibilities": [
                 {
-                  "description": "Update and improve project and process documentation, including new-hire onboarding and system configuration scripts",
+                  "description": "Optimized product lifecycles and improved DevEx via high-clarity backlogs, robust documentation, and automation scripts",
                   "show": true
                 },
                 {
-                  "description": "Lead discussion and implementation of improvements to business processes, meetings schedule, and developer workflow",
+                  "description": "Optimized developer workflows and meeting structures to increase productivity and overall team delivery velocity",
                   "show": true
                 },
                 {
-                  "description": "Collaborate with remote employees of all levels to design, research, and build new features and services",
+                  "description": "Engineered cross-functional services in a remote environment, bridging gaps through collaborative research and design",
                   "show": true
                 },
                 {
-                  "description": "Support co-founded organisation-wide technical debt resolution initiative",
-                  "show": false
-                },
-                {
-                  "description": "Improve team cohesion and provide mentorship by participating in code reviews, pairing sessions, and other efforts",
+                  "description": "Cultivated high-trust culture via mentorship and pairing sessions, elevating technical standards across the engineering team",
                   "show": true
                 },
                 {
-                  "description": "Advocate for code quality, industry standards, monitoring fidelity, system resilience, incident response, and disaster recovery",
+                  "description": "Championed system resilience by implementing rigorous monitoring, incident response, and disaster recovery protocols",
                   "show": true
                 },
                 {
-                  "description": "Groom, refine, and maintain a robust backlog of well-defined tickets",
+                  "description": "Led talent acquisition and growth through technical interviewing and structured mentorship of junior and peer engineers",
                   "show": true
                 },
                 {
-                  "description": "Interview candidates, identify talent, and provide mentorship to other Software Engineers",
+                  "description": "Advocated for A11y, integrating inclusive design standards into the core development and review process",
                   "show": true
-                },
-                {
-                  "description": "Collaborate with other organisations, including Engineering, Design, Business, Ops, Security, and Database Administration",
-                  "show": false
-                },
-                {
-                  "description": "Support and champion Web Accessibility standards",
-                  "show": false
                 }
               ],
               "skills": [
@@ -232,7 +197,7 @@
                 },
                 {
                   "name": "Angular",
-                  "show": true
+                  "show": false
                 },
                 {
                   "name": "AWS",
@@ -278,32 +243,12 @@
               },
               "responsibilities": [
                 {
-                  "description": "Reduced development cost and improved customer flexibility with JSON Schema and custom DAG interpreter",
+                  "description": "Architected custom DAG and JSON Schema solutions while maintaining Ruby, Go, and Python codebases",
                   "show": true
                 },
                 {
-                  "description": "Contributed to Ruby gems; Rails applications; Ruby and Go microservices; Go AWS lambdas; and Python streaming DB replicator",
+                  "description": "Ensured system resilience by supporting Rails and AWS deployments, resolving client issues and production incidents",
                   "show": true
-                },
-                {
-                  "description": "Reduced maintenance overhead by replacing inline validations with centralised JSON Schema on several REST API endpoints",
-                  "show": false
-                },
-                {
-                  "description": "Co-developed custom DAG interpreter, empowering clients to create flexible decision workflows",
-                  "show": false
-                },
-                {
-                  "description": "Supported deployments, client issues, and production incidents",
-                  "show": true
-                },
-                {
-                  "description": "Developed and maintained Ruby gems; Rails applications; Ruby and Go microservices; and Go AWS lambdas",
-                  "show": false
-                },
-                {
-                  "description": "Onboarded to Data Engineering team, supporting Data Quality initiatives for DB streaming replication",
-                  "show": false
                 }
               ],
               "skills": [
@@ -363,28 +308,8 @@
               },
               "responsibilities": [
                 {
-                  "description": "Contributed to website, customer portal, and API; overhauled user documentation; wrote up use-cases for our celular IoT product",
+                  "description": "Enhanced customer experience via web/API development, engaging documentation, and showcasing cellular IoT use-cases",
                   "show": true
-                },
-                {
-                  "description": "Maintained website and contributed code to customer portal API and GUI",
-                  "show": false
-                },
-                {
-                  "description": "Overhauled user-facing product documentation following rebranding and server migration",
-                  "show": false
-                },
-                {
-                  "description": "Wrote additional documentation",
-                  "show": false
-                },
-                {
-                  "description": "Began conversion of documentation to Metalsmith for open-source distribution",
-                  "show": false
-                },
-                {
-                  "description": "Participated in company Hack Days, demonstrating and writing-up diverse use-cases for our cellular IoT product",
-                  "show": false
                 }
               ],
               "skills": [
@@ -448,44 +373,8 @@
               },
               "responsibilities": [
                 {
-                  "description": "Developed email-integrated marketing campaign portal, learning management application, and employee recognition tool",
+                  "description": "Developed marketing, LMS, and recognition tools, extended the Fetch PHP library, and handled everything from UX to infrastructure",
                   "show": true
-                },
-                {
-                  "description": "Developed marketing campaign portal with email integration, enabling seamless transition from accustomed workflows",
-                  "show": false
-                },
-                {
-                  "description": "Developed learning management application for internal employee training; white-labelled for external sales",
-                  "show": false
-                },
-                {
-                  "description": "Redeveloped internal retail employee recognition tool, bringing it up-to-date with best practises and intuitive UX",
-                  "show": false
-                },
-                {
-                  "description": "Researched new technologies",
-                  "show": false
-                },
-                {
-                  "description": "Interacted with testers and managers",
-                  "show": false
-                },
-                {
-                  "description": "Kept up with changing requirements",
-                  "show": false
-                },
-                {
-                  "description": "Wrote documentation",
-                  "show": false
-                },
-                {
-                  "description": "Managed application and database servers",
-                  "show": false
-                },
-                {
-                  "description": "Contributed modifications to 'Fetch' PHP IMAP library, providing improved handling of embedded .eml files",
-                  "show": false
                 }
               ],
               "skills": [
@@ -557,26 +446,9 @@
               },
               "responsibilities": [
                 {
-                  "description": "Built and supported websites on two different CMS platforms; grew team by interviewing candidates and training new employees",
+                  "description": "Built custom solutions in Adobe CQ and JS/jQuery while growing the team and integrating on-site with clients to bridge gaps",
                   "show": true
-                },
-                {
-                  "description": "Developed custom JavaScript, also leveraging jQuery and Handlebars",
-                  "show": false
-                },
-                {
-                  "description": "Built and supported websites on two different CMS platforms",
-                  "show": false
-                },
-                {
-                  "description": "Assisted in building out team by interviewing, onboarding, and training new employees",
-                  "show": false
-                },
-                {
-                  "description": "Integrated seamlessly into client organizations for on-site work as-needed",
-                  "show": false
-                }
-              ],
+                }              ],
               "skills": [
                 {
                   "name": "HTML 5",
@@ -638,20 +510,8 @@
               },
               "responsibilities": [
                 {
-                  "description": "Performed design, research, and development for an interactive portfolio web app showcasing the firm's architectural works",
+                  "description": "Executed R&D and greenfield development, leveraging best-practise frameworks to showcase the firm's architectural portfolio",
                   "show": true
-                },
-                {
-                  "description": "Contributed design and code to greenfield web catalog showcasing the firm's projects to new clients",
-                  "show": false
-                },
-                {
-                  "description": "Researched and implemented best-practice frameworks and technologies to improve efficiency",
-                  "show": false
-                },
-                {
-                  "description": "Implemented Front-End code and business logic",
-                  "show": false
                 }
               ],
               "skills": [
@@ -727,16 +587,8 @@
               },
               "responsibilities": [
                 {
-                  "description": "Overhauled website and trained staff at Zagnoli, McEvoy, Foley; developed emails from PSD templates at Gordon Hanrahan",
+                  "description": "Developed hand-crafted HTML emails for Gordon Hanrahan and overhauled Drupal CMS for ZMF, providing staff training",
                   "show": true
-                },
-                {
-                  "description": "Re-developed Drupal website and trained staff in content authoring at Zagnoli, McEvoy, Foley",
-                  "show": false
-                },
-                {
-                  "description": "Assembled cross-client HTML emails from PSD templates at Gordon Hanrahan",
-                  "show": false
                 }
               ],
               "skills": [
@@ -894,68 +746,8 @@
               },
               "responsibilities": [
                 {
-                  "description": "Provided remote and on-site customer support; installed, configured, and managed servers; developed web applications",
+                  "description": "Managed VoIP and POS hardware for dozens of remote sites, ushering in PCI compliance and automating workflows via custom apps",
                   "show": true
-                },
-                {
-                  "description": "Repaired and maintained several hundred Windows-based point-of-sale registers, kitchen displays, management consoles, and servers",
-                  "show": false
-                },
-                {
-                  "description": "Provided support by phone, email, remote-access, and on-site",
-                  "show": false
-                },
-                {
-                  "description": "Received, repaired, shipped, and tracked defective or malfunctioning units",
-                  "show": false
-                },
-                {
-                  "description": "Troubleshooted hardware, software, and network issues",
-                  "show": false
-                },
-                {
-                  "description": "Documented issues and methods of repair",
-                  "show": false
-                },
-                {
-                  "description": "Trained and supported end users: cashiers, kitchen staff, and location managers",
-                  "show": false
-                },
-                {
-                  "description": "Updated clients to meet PCI requirements",
-                  "show": false
-                },
-                {
-                  "description": "Assisted in on-site installation of VoIP hardware",
-                  "show": false
-                },
-                {
-                  "description": "Installed and configured Asterisk-based IP PBX software",
-                  "show": false
-                },
-                {
-                  "description": "Installed and configured CentOS 5 Linux servers",
-                  "show": false
-                },
-                {
-                  "description": "Implemented OpenVPN across all client machines, reducing support call times by 80%",
-                  "show": false
-                },
-                {
-                  "description": "Provided additional support for VoIP telecom department clients",
-                  "show": false
-                },
-                {
-                  "description": "Built web apps to automate and streamline manual paperwork processes, resulting in my induction to the Marketing team",
-                  "show": false
-                },
-                {
-                  "description": "Created low-maintenance training portal video player",
-                  "show": false
-                },
-                {
-                  "description": "Initiated redevelopment of the company website, performing research and providing templates for Marketing team",
-                  "show": false
                 }
               ],
               "skills": [

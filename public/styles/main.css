@@ -7,7 +7,7 @@ body                            { font: 14px 'Quattrocento Sans', sans-serif; li
 a, a:active, a:visited, a:link  { color: #000; text-decoration: none; background-color: #FEF; }
 a:hover, a:focus                { color: #FFF; text-decoration: none; background-color: #82B; }
 #page-wrap                      { width: 800px; margin: 0 auto; }
-.table                          { display: table; border-collapse: collapse; width: 100%; }
+.table                          { display: table; table-layout: fixed; border-collapse: collapse; width: 100%; }
 .tr                             { display: table-row; }
 .table .th, .table .td          { display: table-cell; }
 #main>div                       { margin: 10px 0 0 0; }
