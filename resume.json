@@ -101,18 +101,18 @@
               "Rails",
               "JavaScript",
               "SQL",
-              "Bash"
+              "Bash / Vim"
             ],
             [
-              "Vim",
+              "Git",
               "NodeJS",
               "Python",
-              "Git",
-              "AWS"
+              "AWS",
+              "CI/CD"
             ],
             [
-              "CI/CD",
-              "Technical Mentorship",
+              "GitHub Copilot",
+              "LLM-Assisted SDLC",
               "Application Architecture",
               "System Architecture",
               "Distributed Systems"
@@ -154,7 +154,7 @@
                   "show": true
                 },
                 {
-                  "description": "Optimized developer workflows and meeting structures to increase productivity and overall team delivery velocity",
+                  "description": "Enhanced developer workflows and meeting structures to increase productivity and overall team delivery velocity",
                   "show": true
                 },
                 {
@@ -162,7 +162,7 @@
                   "show": true
                 },
                 {
-                  "description": "Cultivated high-trust culture via mentorship and pairing sessions, elevating technical standards across the engineering team",
+                  "description": "Cultivated high-trust culture from interviewing through code reviews, pairing, and mentorship of junior and peer engineers",
                   "show": true
                 },
                 {
@@ -170,11 +170,11 @@
                   "show": true
                 },
                 {
-                  "description": "Led talent acquisition and growth through technical interviewing and structured mentorship of junior and peer engineers",
+                  "description": "Advocated for A11y, integrating inclusive design standards into the core development and review process",
                   "show": true
                 },
                 {
-                  "description": "Advocated for A11y, integrating inclusive design standards into the core development and review process",
+                  "description": "Early adopter of GitHub Copilot via Vim/VSCode to accelerate codebase onboarding and streamline complex refactors",
                   "show": true
                 }
               ],
